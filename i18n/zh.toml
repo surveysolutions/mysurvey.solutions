@@ -1,0 +1,155 @@
+[UltimateSolutionForQualitySurveyData]
+other = "高质量调研的终极方案"
+
+[SurveySolutionsIsFreeSoftware]
+other = "Survey Solutions是一{{ .a_open }}个由世界银行{{ .a_close }}Data group 开发的免费软件。"
+
+[FreeCapiSystem]
+other = "免费 {{ .caword }} 系统"
+
+[WhatIsSurveySolutions]
+other = "什么是Survey Solutions？"
+
+[CaptureAnyTypeOfDataWithEase]
+other = "轻松获取各种数据"
+
+[DesignerFeatures]
+other = "您可以设计由各种类型问题构成的问题卷，如内嵌的二维表和答案传递、级联和链接型问题、扫描二维码，以及拍照、录音或通过外部感应器进信息记录。"
+
+[SecureAndScalable]
+other = "安全且灵活"
+
+[CloudServers]
+other = "通过高度安全、灵活且免费的世界银行云服务器进行调研，或部署您的自有云服务器以开展由您完全掌控数据管理的调研。"
+
+[Gis]
+other = "登陆"
+
+[GisFeaturs]
+other = "收集详细的定位、距离和面积等地理信息，离线使用高分辨率的卫星图像和内置GPS功能进行地理分区或引导访员到调研地点。"
+
+[ControlQualityOfYourData]
+other = "控制您的数据质量"
+
+[ConditionsAndLookupTables]
+other = "{{ .a_open }}利用网络验证问卷答案并引导访问流程{{ .a_close }}；使用宏（macros）、计算变量（caculated variables）或查询表（lookup tables）去构建复杂的数据验证规则。利用丰富的平行数据对调研过程进行实时监控。"
+
+[CapiAndMixedModes]
+other = "CAPI/CAWI/CATI 和混合模式"
+
+[CollectInDifferentModes]
+other = "通过您的离线平板电脑（CAPI）、在线的Web界面（CAWI）或电话（CATI）进行数据收集，或进行低成本的混合模式调研。"
+
+[UltimateFlexibilityAndCustomization]
+other = "超级灵活且定制化"
+
+[AutomatedQualityControl]
+other = "开发自动质控系统、将Survey Solutions与外部数据库进行连接、基于丰富的REST APIs开发个性化的控制台和报告。"
+
+[GloballyTrustedPlatformForDataCollection]
+other = "全球信任的数据收集平台"
+
+[SuSoIsUsedInCountries]
+other = "Survey Solutions 的机构用户共来自全球{{ .Count }}个国家"
+
+[QuestionnaireDesigner]
+other = "问卷设计器（Designer）"
+
+[Designer_DevelopComplexQuestionnaires]
+other = "在多语言的环境下开发出复杂的问卷。"
+
+[Designer_CollaborateWithColleagues]
+other = "和它人在线协作以改进您的问卷。"
+
+[Designer_IdentifyProblemsWithCompiler]
+other = "通过强大的问卷编译器快速识别问卷错误并获得修正提示。"
+
+[Designer_TestQuestionnairesOnlineAndOnTablets]
+other = "以在线的方式或通过平板终端测试您的问卷。"
+
+[Designer_ProducePdf]
+other = "导出格式丰富的PDF问卷，以进行存档或查验改进。"
+
+[PublicDemoServer]
+other = "公共演示服务器"
+
+[HQ_TestDriveOnTheDemoDerver]
+other = "基于世行的演示（demo）服务器进行您的调研测试。"
+
+[HQ_SurveyManagement]
+other = "调研管理。"
+
+[HQ_DataAggregationAndExport]
+other = "数据汇总和导出。"
+
+[HQ_DataAnalysis]
+other = "数据分析。"
+
+[HQ_ReportingFunctionalityOfSurveySolutions]
+other = "展示Survey Solutions的功能与特性。"
+
+[Support]
+other = "技术支持"
+
+[Support_LearnMoreAboutSurveySolutionsBy]
+other = "了解Survey Solutions的更多信息："
+
+[WatchingInstructionalVideos]
+other = "观看系{{ .a_open }}列官方视频教程{{ .a_close }}，"
+
+[ReadingDocumentation]
+other = "{{ .a_open }}阅读相关的技术手册或按主题分类的说明文章{{ .a_close }}，"
+
+[BrowsingThroughForumAndReleaseNotes]
+other = "{{ .a_open }}浏览用户论坛或更新说明{{ .a_close }}。"
+
+[Support_GuideSoftwareDevelopmentThroughFeedbackAndFeatureRequests]
+other = "通过用户回馈和功能新增请求，引导软件开发。"
+
+[OurClientsAndPartners]
+other = "我们的客户或合作伙伴"
+
+[OurClients_Nso_Ngo_Universities_ThinkTanks_PrivateSurveyFirms]
+other = "政府统计机构、NGO、大学、智库或私营调研企业"
+
+[Statistics_FaceToFaceInterviews]
+other = "面访"
+
+[Statistics_Surveys]
+other = "调研"
+
+[Statistics_Countries]
+other = "国家"
+
+[SurveySolutionsVersion]
+other = "Survey Solutions {{ .latestversion }}"
+
+[WhatIsNewInVersion]
+other = "新版本的新增功能{{ .latestversion }}"
+
+[VersionHistory]
+other = "版本历史"
+
+[VersionNumber]
+other = "版本{{ .latestversion }}"
+
+[Testimonials]
+other = "术语表"
+
+[ContactUs]
+other = "联系我们"
+
+[SuggestFeature]
+other = "建议增加新功能"
+
+[EmailUs]
+other = "Email联系我们"
+
+[TheWorldBankGroup]
+other = "个由世界银行"
+
+[AllRightsReserved]
+other = "保留所有权利。"
+
+[Legal]
+other = "法律声明"

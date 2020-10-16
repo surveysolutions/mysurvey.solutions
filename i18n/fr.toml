@@ -1,0 +1,146 @@
+[UltimateSolutionForQualitySurveyData]
+other = "La meilleure solution pour les données de qualité"
+
+[SurveySolutionsIsFreeSoftware]
+other = "Survey Solutions est un logiciel gratuit développé par le groupe Données de la {{ .a_open }}Banque Mondiale{{ .a_close }}."
+
+[FreeCapiSystem]
+other = "Gratuit {{ .caword }} système"
+
+[WhatIsSurveySolutions]
+other = "Qu'est-ce Survey Solutions ?"
+
+[CaptureAnyTypeOfDataWithEase]
+other = "Capturez n'importe quel type de données en toute simplicité"
+
+[DesignerFeatures]
+other = "Concevez vos enquêtes avec toute la gamme de questions standard, utilisez des rosters imbriqués et la tuyauterie de réponse, des questions en cascades ou questions reliées à d'autres questions, scanner des codes-barres, prendre des photos, faire des enregistrements sonores, et obtenir des information des capteurs externes."
+
+[SecureAndScalable]
+other = "Sécurisé et évolutif"
+
+[CloudServers]
+other = "Menez vos enquêtes à partir du cloud gratuit, évolutif, et hautement sécurisé de la Banque Mondiale, ou déployez sur votre propre serveur afin de contrôler pleinement qui accède aux données et comment."
+
+[Gis]
+other = "SIG"
+
+[GisFeaturs]
+other = "Receilllez des informations SIG détaillées sur l'emplacement, les distances, et les superficies, afficher les bornes géographiques de l'unité primaire d'échantionnage et guidez les enquêteurs jusqu'à l'endroit de l'entretien à l'aide d'images satellitaires de haute résolution et de récepteurs GPS intégrés."
+
+[ControlQualityOfYourData]
+other = "Contrôler la qualité de vos données"
+
+[ConditionsAndLookupTables]
+other = "Valider les réponses et diriger le flux de l'entretien avec le pouvoir de {{ .a_open }}.Net{{ .a_close }}; utiliser des macros, des variables calculées, et des tableaux de référence pour construire des algorithmes de validation de données sophistiqués. Suivez le progrès de l'enquête en temps réel en analysant des paradonnées riches."
+
+[CapiAndMixedModes]
+other = "CAPI/CAWI/CATI et modes mixtes"
+
+[CollectInDifferentModes]
+other = "Collectez vos données hors connexion sur des tablettes (CAPI), en ligne à l'aide d'une interface web (CAWI), par appels téléphoniques (CATI), ou réalisez une opération de collecte rentable avec un mode mixte."
+
+[UltimateFlexibilityAndCustomization]
+other = "Flexibilité et personnalisation ultimes"
+
+[AutomatedQualityControl]
+other = "Développez des systèmes de contrôle-qualité automatisés, reliez Survey Solutions avec des bases externes, et concevez des tableaux de bords et rappors personnalisés à l'aide d'un ensemble riche d'APIs."
+
+[GloballyTrustedPlatformForDataCollection]
+other = "Plate-forme de collecte de donnée internationalement reconnue"
+
+[QuestionnaireDesigner]
+other = "Concepteur de questionnaire"
+
+[Designer_DevelopComplexQuestionnaires]
+other = "Rédigez des questionnaires complèxes dans plusieurs langues."
+
+[Designer_CollaborateWithColleagues]
+other = "Collaborez avec des collègues pour rafiner votre instrument de collecte."
+
+[Designer_IdentifyProblemsWithCompiler]
+other = "Identifiez vite les problèmes et obtenez des conseils d'un compilateur puissant."
+
+[Designer_TestQuestionnairesOnlineAndOnTablets]
+other = "Testez vos questionnaires en ligne et sur des tablettes."
+
+[Designer_ProducePdf]
+other = "Produisez des documents PDFs pour la documentation et l'appréciation de l'équipe de contrôle-qualité."
+
+[PublicDemoServer]
+other = "Serveur démonstration public"
+
+[HQ_TestDriveOnTheDemoDerver]
+other = "Faire des essais de la fonctionnalité de Survey Solutions sur le serveur de démonstration."
+
+[HQ_SurveyManagement]
+other = "Gestion de l'enquête."
+
+[HQ_DataAggregationAndExport]
+other = "Agrégation et exportation des données."
+
+[HQ_DataAnalysis]
+other = "Analyse des données."
+
+[HQ_ReportingFunctionalityOfSurveySolutions]
+other = "Rapports."
+
+[Support]
+other = "Appui technique"
+
+[Support_LearnMoreAboutSurveySolutionsBy]
+other = "Apprendre d'avantage sur Survey Solutions en:"
+
+[WatchingInstructionalVideos]
+other = "Regardant des douzaines {{ .a_open }}de vidéos pédagogiques{{ .a_close }},"
+
+[ReadingDocumentation]
+other = "Lisant {{ .a_open }}la documentation et les articles thématiques{{ .a_close }},"
+
+[BrowsingThroughForumAndReleaseNotes]
+other = "Feuilletant {{ .a_open }}le forum d'utilisateurs{{ .a_close }} et les notes de version."
+
+[Support_GuideSoftwareDevelopmentThroughFeedbackAndFeatureRequests]
+other = "Influer sur le développement du logiciel par le feedback et les requêtes de fonctionnalité."
+
+[OurClientsAndPartners]
+other = "Nos clients et partenaires"
+
+[OurClients_Nso_Ngo_Universities_ThinkTanks_PrivateSurveyFirms]
+other = "Instituts nationaux de statistique, ONGs, universités, think tanks, cabinets privés"
+
+[Statistics_FaceToFaceInterviews]
+other = "ENTRETIENS FACE-À-FACE"
+
+[Statistics_Surveys]
+other = "ENQUÊTES"
+
+[Statistics_Countries]
+other = "PAYS"
+
+[SurveySolutionsVersion]
+other = "Survey Solutions {{ .latestversion }}"
+
+[WhatIsNewInVersion]
+other = "Les nouveautés des versions {{ .latestversion }}"
+
+[VersionHistory]
+other = "Historique des versions"
+
+[VersionNumber]
+other = "Versions {{ .latestversion }}"
+
+[Testimonials]
+other = "Témoignages"
+
+[ContactUs]
+other = "Contactez nous"
+
+[SuggestFeature]
+other = "Proposez une fonctionnalité"
+
+[AllRightsReserved]
+other = "Tous les droits sont réservés."
+
+[Legal]
+other = "Légal"

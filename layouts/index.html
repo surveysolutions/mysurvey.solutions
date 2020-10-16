@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Survey, solutions" />
+    <meta name="description" content="Survey solutions" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Survey Solutions</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/identity/favicon-support-1-180-iphone-6.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/img/identity/favicon-support-1-48-win-ico.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/identity/favicon-support-1.png">
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Fira+Mono:400,500&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" rel="stylesheet" />
+    <link href="/css/markup-common.css" rel="stylesheet" asp-append-version="true">
+    <link href="/css/markup-landing.css" rel="stylesheet" asp-append-version="true">
+
+</head>
+
+<body class="mb-0">
+    <button id="top-btn" title="Go to top"><span></span></button>
+    <header class="position-absolute w-100">
+        <nav class="navbar navbar-expand-lg navbar-dark px-3 px-lg-2">
+            <div class="container flex-row justify-content-start justify-content-lg-between">
+                <span class="navbar-brand">
+                    <a class=" d-block pb-0 text-white mb-1" href="https://mysurvey.solutions">Survey <br />
+                        Solutions</a>
+                    <a class="text-white version text-right"
+                        href="@releaseNotesLink">{{ i18n "VersionNumber" .Site.Params }}</a>
+                </span>
+                <button class="navbar-toggler align-self-lg-start ml-auto" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse align-self-lg-center mt-4 pt-3 mt-lg-0 pt-lg-0 ml-lg-4 mt-2 mt-lg-0"
+                    id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="btn btn-link" href="#about-section">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-link" href="#coverage-map-section">Coverage Map</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-link" href="#designer-section">Designer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-link" href="#demo-server-section">Demo server</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-link" href="#support-site-section">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-link" href="#stats-section">Stats</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-link" href="/download">Download</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://mysurvey.solutions" class="btn btn-link btn-bordered">
+                                Login
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <select class="selectpicker float-right language-picker transparent-light-gray"
+                                data-dropdown-align-right="true" name="culture">
+                                {{ range $.Site.Home.AllTranslations }}
+                                <option value="{{ .Permalink }}"
+                                    data-content='<span class="language-code text-uppercase">{{ .Language.Lang }}</span>{{ .Language.LanguageName }}'>
+                                    {{ .Language.LanguageName }}</option>
+                                {{ end }}
+                            </select>
+
+                            <ul class="float-right transparent-light-gray">
+                                {{ range $.Translations }}
+                                <li><a href="{{ .Permalink }}"><span class="language-code text-uppercase">{{ .Language.Lang }}</span> {{ .Language.LanguageName }}</a></li>
+                                {{ end }}
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="position-relative" id="gallery">
+            <div class="tagline">
+                {{ i18n "UltimateSolutionForQualitySurveyData" }}
+                <span class="headline mt-1">
+                    {{ i18n "FreeCapiSystem" (dict "Count" 2 "caword" `<span id="typed-strings"><b>CAPI</b><b>CAWI</b><b>CATI</b><b>CARI</b></span><span id="typed"></span>`) | safeHTML }}
+                </span>
+            </div>
+            <div class="carousel slide carousel-fade clearfix gallery" data-ride="carousel">
+                <div class="carousel-inner">
+                    {{ range shuffle (seq 21) }}
+                    <div class="carousel-item {{ if (eq . 1) }}active{{ end }}">
+                        <a href="#about-section" class="d-block w-100 image" id="picture{{ . }}"></a>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </section>
+        <section class="wrapper has-background py-5" id="about-section">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2>{{ i18n "WhatIsSurveySolutions" }}</h2>
+                    <p class="h5 font-weight-bold">{{ i18n "SurveySolutionsIsFreeSoftware" (dict "Count" 2 "a_open" `<a href="http://www.worldbank.org/" target="_blank">` "a_close" "</a>") | safeHTML }}</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="icon-text pb-3 capture-data">
+                            <h3 class="pb-2"><a target="_blank"
+                                    href="https://support.mysurvey.solutions/interviewer/answering-all-question-types/">{{ i18n "CaptureAnyTypeOfDataWithEase" }}</a>
+                            </h3>
+                            <p>{{ i18n "DesignerFeatures" }}</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-text pb-3 secure-scalable">
+                            <h3 class="pb-2"><a
+                                    href="https://support.mysurvey.solutions/faq/how-secure-is-the-world-bank-cloud-/"
+                                    target="_blank">{{ i18n "SecureAndScalable" }}</a> </h3>
+                            <p>{{ i18n "CloudServers" }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="icon-text control-quality">
+                            <h3 class="pb-2"><a
+                                    href="https://support.mysurvey.solutions/syntax-guide/syntax-guide-using-linq-expressions-for-conditions-in-rosters/"
+                                    target="blank">{{ i18n "ControlQualityOfYourData" }}</a></h3>
+                            <p>{{ i18n "ConditionsAndLookupTables" (dict "Count" 2 "a_open" "<a href=https://www.microsoft.com/net target=_blank>" "a_close" "</a>" ) | safeHTML }}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-text ultimate-flexibility">
+                            <h3 class="pb-2"><a
+                                    href="https://support.mysurvey.solutions/headquarters/survey-solutions-api/"
+                                    target="_blank">{{ i18n "UltimateFlexibilityAndCustomization" }}</a></h3>
+                            <p>{{ i18n "AutomatedQualityControl" }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="icon-text modes">
+                            <h3 class="pb-2"><a
+                                    href="https://support.mysurvey.solutions/getting-started/computer-assisted-web-interviewing-cawi-/"
+                                    target="_blank">{{ i18n "CapiAndMixedModes" }}</a></h3>
+                            <p>{{ i18n "CollectInDifferentModes" }}</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-text gis">
+                            <h3 class="pb-2"><a
+                                    href="https://support.mysurvey.solutions/questionnaire-designer/geography-question/"
+                                    target="_blank">{{ i18n "Gis" }}</a></h3>
+                            <p>{{ i18n "GisFeaturs" }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="wrapper py-5" id="coverage-map-section">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2>{{ i18n "GloballyTrustedPlatformForDataCollection" }}</h2>
+                    <p class="h5 font-weight-bold">{{ i18n "SuSoIsUsedInCountries" 3 }}</p>
+                </div>
+                <div id="map" style="height: 750px"></div>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper has-background py-5" id="designer-section">
+                <div class="container">
+                    <div class="row align-items-center designer">
+                        <div class="col-md-6 order-2 order-md-1">
+                            <div class="feature mx-auto">
+                                <h3 class="mb-4"><a class="scale-underline" href="https://designer.mysurvey.solutions/"
+                                        target="_blank">{{ i18n "QuestionnaireDesigner" }}</a></h3>
+                                <ul class="mb-0 pl-3">
+                                    <li>{{ i18n "Designer_DevelopComplexQuestionnaires" }}</li>
+                                    <li>{{ i18n "Designer_CollaborateWithColleagues" }}</li>
+                                    <li>{{ i18n "Designer_IdentifyProblemsWithCompiler" }}</li>
+                                    <li>{{ i18n "Designer_TestQuestionnairesOnlineAndOnTablets" }}</li>
+                                    <li>{{ i18n "Designer_ProducePdf" }}</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+                            <a href="https://designer.mysurvey.solutions/" target="_blank"
+                                class="laptop-icon d-block"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper py-5" id="demo-server-section">
+                <div class="container">
+                    <div class="row align-items-center demo-server">
+                        <div class="col-md-6  mb-4 mb-md-0">
+                            <a href="https://demo.mysurvey.solutions" target="_blank" class="laptop-icon d-block"></a>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="feature mx-auto">
+                                <h3 class="mb-4"><a class="scale-underline" href="https://demo.mysurvey.solutions"
+                                        target="_blank">{{ i18n "PublicDemoServer" }}</a></h3>
+                                <p>{{ i18n "HQ_TestDriveOnTheDemoDerver" }}</p>
+                                <ul class="mb-0">
+                                    <li>{{ i18n "HQ_SurveyManagement" }}</li>
+                                    <li>{{ i18n "HQ_DataAggregationAndExport" }}</li>
+                                    <li>{{ i18n "HQ_DataAnalysis" }}</li>
+                                    <li>{{ i18n "HQ_ReportingFunctionalityOfSurveySolutions" }}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper has-background py-5" id="support-site-section">
+                <div class="container">
+                    <div class="row align-items-center support">
+                        <div class="col-md-6 order-2 order-md-1">
+                            <div class="feature mx-auto">
+                                <h3 class="mb-4"><a class="scale-underline" href="http://support.mysurvey.solutions/"
+                                        target="_blank">{{ i18n "Support" }}</a></h3>
+                                <p>{{ i18n "Support_LearnMoreAboutSurveySolutionsBy" }}</p>
+                                <ul class="pl-3">
+                                    <li>{{ i18n "WatchingInstructionalVideos" (dict "Count" 2 "a_open" `<a href="https://www.youtube.com/channel/UCzGrZ3FiEu5NbDJB2GKazOA" target="_blank" id="video-tutorials">` "a_close" "</a>") | safeHTML }}
+                                    </li>
+                                    <li>{{ i18n "ReadingDocumentation" (dict "Count" 2 "a_open" `<a href="https://support.mysurvey.solutions/" target="_blank">` "a_close" "</a>") | safeHTML }}
+                                    </li>
+                                    <li>{{ i18n "BrowsingThroughForumAndReleaseNotes" (dict "Count" 2 "a_open" `<a href="https://forum.mysurvey.solutions/" target="_blank" id="user-forum">` "a_close" "</a>") | safeHTML }}
+                                    </li>
+                                </ul>
+                                <p>{{ i18n "Support_GuideSoftwareDevelopmentThroughFeedbackAndFeatureRequests" }}</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+                            <a href="http://support.mysurvey.solutions/" target="_blank"
+                                class="laptop-icon d-block"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wrapper py-5" id="stats-section">
+            <div class="container mb-5">
+                <div class="text-center mb-5">
+                    <h2>{{ i18n "OurClientsAndPartners" }}</h2>
+                    <p class="h5 font-weight-bold">
+                        {{ i18n "OurClients_Nso_Ngo_Universities_ThinkTanks_PrivateSurveyFirms" }}
+                    </p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="statistic-block d-flex flex-column align-items-center">
+                        <div class="statistic-number font-weight-light mb-2 counter">333</div>
+                        <div class="number-title font-weight-bold">{{ i18n "Statistics_FaceToFaceInterviews" }}</div>
+                    </div>
+                    <div class="line align-self-center mx-2"></div>
+                    <div class="statistic-block d-flex flex-column align-items-center">
+                        <div class="statistic-number font-weight-light mb-2 counter">222</div>
+                        <div class="number-title font-weight-bold">{{ i18n "Statistics_Surveys" }}</div>
+                    </div>
+                    <div class="line align-self-center mx-2"></div>
+                    <div class="statistic-block d-flex flex-column align-items-center">
+                        <div class="statistic-number font-weight-light mb-2 counter">111</div>
+                        <div class="number-title font-weight-bold">{{ i18n "Statistics_Countries" }}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid pt-4">
+                <div class="customer-logos slider">
+                    {{ range shuffle (seq 244) }}
+                    <div class="slide"><span class="image{{ mul . 2}}"></span><span
+                            class="image{{ mul . 2 | add 1 }}"></span></div>
+                    {{ end }}
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="pt-4 pb-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 mb-4 mb-sm-0">
+                    <h3 class="h2 font-weight-normal pb-2">{{ i18n "SurveySolutionsVersion" .Site.Params }}</h3>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="@releaseNotesLink" target="_blank">{{ i18n "WhatIsNewInVersion" .Site.Params }}</a>
+                        </li>
+                        <li><a href="https://support.mysurvey.solutions/release-notes"
+                                target="_blank">{{ i18n "VersionHistory" }}</a></li>
+                        <li><a href="http://www.capterra.com/p/153927/Survey-Solutions/"
+                                target="_blank">{{ i18n "Testimonials" }}</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <div class="contact-information bg-white p-3 rounded position-relative">
+                        <p class="h2 font-weight-normal pb-2">{{ i18n "ContactUs" }}</p>
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="https://forum.mysurvey.solutions/c/feature-suggestions"
+                                    target="_blank">{{ i18n "SuggestFeature" }}</a></li>
+                            <li><a href="/ContactUs">{{ i18n "EmailUs" }}</a></li>
+                            <li class="clearfix">
+                                <a href="https://www.facebook.com/mysurveysolutions" target="_blank"
+                                    id="facebook">f</a><a
+                                    href="https://www.youtube.com/channel/UCzGrZ3FiEu5NbDJB2GKazOA" target="_blank"
+                                    id="youtube"></a>
+                            </li>
+                        </ul>
+                        <a href="/ContactUs" class="contact-icon d-none d-md-block"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="container">
+            <div class="row">
+                <div class="col-12 legitimacy">
+                    &copy; 2016&mdash;{{ now.Format "2006" }} {{ i18n "TheWorldBankGroup" }}<br>
+                    {{ i18n "AllRightsReserved" }}<a href="https://www.worldbank.org/en/about/legal"
+                        class="text-muted">{{ i18n "Legal" }}</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/mapdata/custom/world-highres3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="/js/landing.js" asp-append-version="true"></script>
+
+</body>
+
+</html>

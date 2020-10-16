@@ -1,0 +1,155 @@
+[UltimateSolutionForQualitySurveyData]
+other = "Идеальный инструмент для сбора качественных данных"
+
+[SurveySolutionsIsFreeSoftware]
+other = "Survey Solutions это бесплатное приложение развиваемое в департамете Данных {{ .a_open }}Всемирного Банка{{ .a_close }}."
+
+[FreeCapiSystem]
+other = "Бесплатная {{ .caword }} система"
+
+[WhatIsSurveySolutions]
+other = "Что такое Survey Solutions?"
+
+[CaptureAnyTypeOfDataWithEase]
+other = "С легкостью собирайте данные любого типа"
+
+[DesignerFeatures]
+other = "Создавайте опросники используя широкий диапазон стандартных вопросов; используйте вложенные ростеры и связанные вопросы; сканируйте баркоды, делайте фотографии и аудиозаписи и регистрировать информацию из внешних сенсоров."
+
+[SecureAndScalable]
+other = "Надежно защищенная и масштабируемая система"
+
+[CloudServers]
+other = "Система Survey Solutions может быть установлена на локальные сервера или облачные."
+
+[Gis]
+other = "ГИС"
+
+[GisFeaturs]
+other = "Собирайте детальную геоинформацию об исследуемых объектах: координаты, расстояния, площади; устанавливайте географические границы и направляйте интервьюеров к точке сбора данных используя спутниковые снимки высокого разрешения и встроенные GPS приемники."
+
+[ControlQualityOfYourData]
+other = "Контролируйте качество ваших данных"
+
+[ConditionsAndLookupTables]
+other = "Проверяите ответы респондентов и управляйте обследованиями используя макросы, {{ .a_open }}.Net{{ .a_close }}, вычисляемые переменные и таблицы соответствий для создания эфективных алгоритмов валидации данных. Анализируйте параданные для мониторинга хода обследования в реальном времяни."
+
+[CapiAndMixedModes]
+other = "CAPI/CAWI/CATI и смешанные режимы"
+
+[CollectInDifferentModes]
+other = "Собирайте ваши данные оффлайн на таблетах, онлайн используя веб интерфейс, проводите телефонные интервью, и снижайте стоимость ваших обследований комбинируя различные методы сбора данных."
+
+[UltimateFlexibilityAndCustomization]
+other = "Неограниченная гибкость и кастомизация"
+
+[AutomatedQualityControl]
+other = "Развивайте системы автоматизированного контроля качества данных, соединяйте базы Survey Solutions с внешними базами данных, создавайте специализированные панели управления и и отчёты для ваших обследованиямй используя богатый набор REST API."
+
+[GloballyTrustedPlatformForDataCollection]
+other = "Платформа которой доверяют во всем мире"
+
+[SuSoIsUsedInCountries]
+other = "Survey Soluitons используется агенствами связанными со сбором данных в {{ .Count }} странах"
+
+[QuestionnaireDesigner]
+other = "Дизайнер Вопросников"
+
+[Designer_DevelopComplexQuestionnaires]
+other = "Разрабатывайте вопросники на нескольких языках."
+
+[Designer_CollaborateWithColleagues]
+other = "Сотрудничайте с коллегами в разработке сложных вопросников."
+
+[Designer_IdentifyProblemsWithCompiler]
+other = "Быстро диагностируйте проблемы и получайте рекомендации по их устранению используя мощный компилятор."
+
+[Designer_TestQuestionnairesOnlineAndOnTablets]
+other = "Тестируйте вопросники онлайн и на таблетах."
+
+[Designer_ProducePdf]
+other = "Генерируйте отформатированные документы в формате pdf для документации и контроля качества."
+
+[PublicDemoServer]
+other = "Публичный Демо сервер"
+
+[HQ_TestDriveOnTheDemoDerver]
+other = "Обкатайте ваше обследование на демо сервере."
+
+[HQ_SurveyManagement]
+other = "Протестируйте систему управления обследованиями."
+
+[HQ_DataAggregationAndExport]
+other = "Опробуйте функциональность агрегации и экспорта данных."
+
+[HQ_DataAnalysis]
+other = "Анализируйте собранные данные."
+
+[HQ_ReportingFunctionalityOfSurveySolutions]
+other = "Создавайте отчеты, графики и карты."
+
+[Support]
+other = "Поддержка"
+
+[Support_LearnMoreAboutSurveySolutionsBy]
+other = "Узнайте больше про Survey Solutions:"
+
+[WatchingInstructionalVideos]
+other = "{{ .a_open }}Обучающие видео{{ .a_close }} на Survey Solutions youtube канале,"
+
+[ReadingDocumentation]
+other = "Обширная {{ .a_open }}документация и специализированные статьи{{ .a_close }},"
+
+[BrowsingThroughForumAndReleaseNotes]
+other = "{{ .a_open }}Форум пользователей{{ .a_close }} и информация по новым версиям."
+
+[Support_GuideSoftwareDevelopmentThroughFeedbackAndFeatureRequests]
+other = "Помогайте развивать Survey Solutions. Делитесь с другими пользователями своим опытом проведения обследований, обсуждайте функциональность которую вы бы хотели видеть в будущих версиях Survey Solutions."
+
+[OurClientsAndPartners]
+other = "Наши клиенты и партнеры"
+
+[OurClients_Nso_Ngo_Universities_ThinkTanks_PrivateSurveyFirms]
+other = "Национальные статистические офисы, НКО, Экспертные группы, частные компании"
+
+[Statistics_FaceToFaceInterviews]
+other = "Интервью"
+
+[Statistics_Surveys]
+other = "Обследований"
+
+[Statistics_Countries]
+other = "Стран"
+
+[SurveySolutionsVersion]
+other = "Survey Solutions {{ .latestversion }}"
+
+[WhatIsNewInVersion]
+other = "Что нового в версии {{ .latestversion }}"
+
+[VersionHistory]
+other = "История версий"
+
+[VersionNumber]
+other = "Версия {{ .latestversion }}"
+
+[Testimonials]
+other = "Рекомендации"
+
+[ContactUs]
+other = "Связаться с нами"
+
+[SuggestFeature]
+other = "Предложить функциональность"
+
+[EmailUs]
+other = "Отправить Email"
+
+[TheWorldBankGroup]
+other = "Всемирный банк"
+
+[AllRightsReserved]
+other = "Все права защищены."
+
+[Legal]
+other = "Правовая информация"

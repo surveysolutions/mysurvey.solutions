@@ -1,0 +1,155 @@
+[UltimateSolutionForQualitySurveyData]
+other = "Ultimate solution for quality survey data"
+
+[SurveySolutionsIsFreeSoftware]
+other = "Survey Solutions is free software developed in the Data group of {{ .a_open }}The World Bank{{ .a_close }}."
+
+[FreeCapiSystem]
+other = "Free {{ .caword }} system"
+
+[WhatIsSurveySolutions]
+other = "What is Survey Solutions?"
+
+[CaptureAnyTypeOfDataWithEase]
+other = "Capture any type of data with ease"
+
+[DesignerFeatures]
+other = "Design your surveys with a full range of standard questions, utilize nested rosters and answer piping, cascading and linked questions, scan barcodes, capture pictures and audio and record information from external sensors."
+
+[SecureAndScalable]
+other = "Secure and scalable"
+
+[CloudServers]
+other = "Survey Solutions server components can be installed on the server in your premises or in a cloud."
+
+[Gis]
+other = "GIS"
+
+[GisFeaturs]
+other = "Collect detailed GIS information on locations, distances, and areas, apply geofencing and guide interviewers to the point of interview offline using high resolution satellite images and built-in GPS receivers."
+
+[ControlQualityOfYourData]
+other = "Control quality of your data"
+
+[ConditionsAndLookupTables]
+other = "Validate your answers and direct the interview flow with the power of {{ .a_open }}.Net{{ .a_close }}; use macros, calculated variables and lookup tables to construct sophisticated data validation algorithms. Monitor survey progress in real time by analyzing rich paradata."
+
+[CapiAndMixedModes]
+other = "CAPI/CAWI/CATI and mixed modes"
+
+[CollectInDifferentModes]
+other = "Collect your data offline on tablets (CAPI), online using web-interface (CAWI), capture phone interviews (CATI), and conduct cost efficient mixed mode surveys."
+
+[UltimateFlexibilityAndCustomization]
+other = "Ultimate flexibility and customization"
+
+[AutomatedQualityControl]
+other = "Develop systems of automated quality controls, connect Survey Solutions with external databases, design custom dashboards and reports using rich set of REST APIs."
+
+[GloballyTrustedPlatformForDataCollection]
+other = "Globally trusted platform for data collection"
+
+[SuSoIsUsedInCountries]
+other = "Survey Solutions is used by data collecting agencies in {{ .Count }} countries"
+
+[QuestionnaireDesigner]
+other = "Questionnaire Designer"
+
+[Designer_DevelopComplexQuestionnaires]
+other = "Develop complex questionnaires in several languages."
+
+[Designer_CollaborateWithColleagues]
+other = "Collaborate with colleagues on refining your instrument."
+
+[Designer_IdentifyProblemsWithCompiler]
+other = "Quickly identify problems and get guidance from a powerful compiler."
+
+[Designer_TestQuestionnairesOnlineAndOnTablets]
+other = "Test questionnaires online and on tablets."
+
+[Designer_ProducePdf]
+other = "Produce richly formatted PDF documents for documentation and quality assurance review."
+
+[PublicDemoServer]
+other = "Public Demo Server"
+
+[HQ_TestDriveOnTheDemoDerver]
+other = "Take your survey for a test drive on the demo server."
+
+[HQ_SurveyManagement]
+other = "Survey Management."
+
+[HQ_DataAggregationAndExport]
+other = "Data Aggregation and Export."
+
+[HQ_DataAnalysis]
+other = "Data Analysis."
+
+[HQ_ReportingFunctionalityOfSurveySolutions]
+other = "Reporting functionality of Survey Solutions."
+
+[Support]
+other = "Support"
+
+[Support_LearnMoreAboutSurveySolutionsBy]
+other = "Learn more about Survey Solutions by:"
+
+[WatchingInstructionalVideos]
+other = "Watching dozens of {{ .a_open }}instructional videos{{ .a_close }},"
+
+[ReadingDocumentation]
+other = "Reading {{ .a_open }}comprehensive documentation and topical articles{{ .a_close }},"
+
+[BrowsingThroughForumAndReleaseNotes]
+other = "Browsing through the {{ .a_open }}user forum{{ .a_close }} and release notes."
+
+[Support_GuideSoftwareDevelopmentThroughFeedbackAndFeatureRequests]
+other = "Guide software development through feedback and feature requests."
+
+[OurClientsAndPartners]
+other = "Our clients and partners"
+
+[OurClients_Nso_Ngo_Universities_ThinkTanks_PrivateSurveyFirms]
+other = "National Statistical Offices, NGOs, Universities, Think Tanks, Private Survey Firms"
+
+[Statistics_FaceToFaceInterviews]
+other = "Face-to-face interviews"
+
+[Statistics_Surveys]
+other = "Surveys"
+
+[Statistics_Countries]
+other = "Countries"
+
+[SurveySolutionsVersion]
+other = "Survey Solutions {{ .latestversion }}"
+
+[WhatIsNewInVersion]
+other = "What's new in Version {{ .latestversion }}"
+
+[VersionHistory]
+other = "Version history"
+
+[VersionNumber]
+other = "Version {{ .latestversion }}"
+
+[Testimonials]
+other = "Testimonials"
+
+[ContactUs]
+other = "Contact us"
+
+[SuggestFeature]
+other = "Suggest a feature"
+
+[EmailUs]
+other = "Email us"
+
+[TheWorldBankGroup]
+other = "The World Bank Group"
+
+[AllRightsReserved]
+other = "All rights Reserved."
+
+[Legal]
+other = "Legal"

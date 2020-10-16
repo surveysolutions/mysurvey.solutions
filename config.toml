@@ -1,0 +1,32 @@
+baseURL = "https://mysurvey.solutions/"
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+title = "Survey Solutions"
+
+DefaultContentLanguage = "en"
+
+[languages]
+    [languages.en]
+    LanguageName = "English"
+
+    [languages.ru]
+    LanguageName = "Русский"
+
+    [languages.es]
+    LanguageName = "Español"
+
+    [languages.fr]
+    LanguageName =  "Français"
+
+    [languages.ar]
+    LanguageName = "العربية"
+
+    [languages.pt]
+    LanguageName = "Português"
+
+    [languages.zh]
+    LanguageName = "中文"
+
+
+[params]
+releaseNotesLink = "https://support.mysurvey.solutions/release-notes/version-{Model.UrlLatestVersion}/"
+LatestVersion = "20.09"

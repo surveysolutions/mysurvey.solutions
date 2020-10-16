@@ -1,0 +1,149 @@
+[UltimateSolutionForQualitySurveyData]
+other = "الحل النهائي لبيانات ذات جودة"
+
+[SurveySolutionsIsFreeSoftware]
+other = "\"سيرفي سلوشنز \" هو نظام برمجي مجاني طُور من طرف فريق البيانات{{ .a_open }} للبنك الدولي{{ .a_close }}."
+
+[FreeCapiSystem]
+other = "مجاني {{ .caword }} نظام"
+
+[WhatIsSurveySolutions]
+other = "ماهو \"سيرفي سلوشنز \" ؟"
+
+[CaptureAnyTypeOfDataWithEase]
+other = "يلتقط أي نوع من البيانات بسهولة"
+
+[DesignerFeatures]
+other = "يصمم الاستبيانات مع مجموعة كاملة من الأسئلة الموحدة ، يستخدم القوائم المتداخلة يعطي إجابات على الأسئلة المتراكمة والمتتالية والمترابطة، يفحص الرمز الشريطي (الباركود) يلتقط الصور والتسجيلات ويسجل المعلومات من أجهزة الاستشعار الخارجية."
+
+[SecureAndScalable]
+other = "نظام برمجي آمن وقابل للتحجيم"
+
+[CloudServers]
+other = "شغل الاستبيانات على World Bank Cloud المجاني والذي يتمتع بأمانٍ عالٍ وقابلية للتطوير وقم بنشر \"Survey Solutions\" على الخوادم الخاصة بك للتحكم بشكل كامل في الأشخاص الذين يمكنهم الوصول إلى بياناتك وفي كيفية الوصول إليها."
+
+[Gis]
+other = "نظام المعلومات الجغرافية GIS"
+
+[GisFeaturs]
+other = "جمع معلومات مفصلة من نظام المعلومات الجغرافية جي آي أس GIS من المواقع والمسافات والمناطق – تطبيق خاصية الحدود الجغرافية وتوجيه الباحثين إلى مكان نقطة المقابلة في وضع عدم الاتصال باستخدام صور الأقمار الصناعية عالية الدقة ومستقبلات جي بي أس GPS المدمجة."
+
+[ControlQualityOfYourData]
+other = "التحكم في جودة البيانات"
+
+[ConditionsAndLookupTables]
+other = "يتحقق من صحة الإجابات ويوجه تدفق المقابلة مع قوة النت ، يستخدم وحدات الماكرو ، المتغيرات المحسوبة وجداول البحث لإنشاء خوارزميات، يتحقق من البيانات المتطورة يراقب تقدم الاستبيانات في الوقت الحقيقي من خلال تحليل البيانات paradata."
+
+[CapiAndMixedModes]
+other = "تقنيات CAPI - CAWI - CATI والأساليب المختلطة"
+
+[CollectInDifferentModes]
+other = "جمع البيانات دون الحاجة لاتصال نت على الأجهزة اللوحية (CAPI) ، عبر اتصال نت باستخدام واجهة ويب (CAWI) ، والاتصالات الهاتفية (CATI) ، وإجراء استبيانات ذات أساليب مختلطة فعالة من حيث التكلفة."
+
+[UltimateFlexibilityAndCustomization]
+other = "مرونة فائقة وقابلية للتعديل"
+
+[AutomatedQualityControl]
+other = "قم بتطوير أنظمة ضوابط الجودة الآلية ، توصيل Survey Solutions بقواعد البيانات الخارجية ، وتصميم لوحات المعلومات والتقارير باستخدام مجموعة غنية من واجهات برمجة التطبيقات REST APIs."
+
+[GloballyTrustedPlatformForDataCollection]
+other = "\"سيرفي سلوشنز \" منصة جمع بيانات موثوق بها عالميا"
+
+[SuSoIsUsedInCountries]
+other = "يستخدم \"سيرفي سلوشنز \" من طرف وكالات جمع البيانات في {0} بلدًا"
+
+[QuestionnaireDesigner]
+other = "تصميم الاستطلاعات"
+
+[Designer_DevelopComplexQuestionnaires]
+other = "إجراء استطلاعات معقدة بعدة لغات."
+
+[Designer_CollaborateWithColleagues]
+other = "تعاون مع زملائك من أجل تحسين أداتك."
+
+[Designer_IdentifyProblemsWithCompiler]
+other = "تعرف بسرعة على المشاكل واحصل على إرشادات من مترجم قوي."
+
+[Designer_TestQuestionnairesOnlineAndOnTablets]
+other = "اختبر الاستطلاعات عبر الإنترنت وعلى الأجهزة اللوحية."
+
+[Designer_ProducePdf]
+other = "إنشاء وتهيئة ملفات PDF من أجل التوثيق ومراجعة ضمان الجودة."
+
+[PublicDemoServer]
+other = "خادوم نت تجريبيي عمومي"
+
+[HQ_TestDriveOnTheDemoDerver]
+other = "إختبر خصائص برنامج \"سيرفي سلوشنز \" على خادوم تجريبي."
+
+[HQ_SurveyManagement]
+other = "إدارة البرنامج."
+
+[HQ_DataAggregationAndExport]
+other = "تجميع البيانات وتصديرها."
+
+[HQ_DataAnalysis]
+other = "تحليل البيانات."
+
+[HQ_ReportingFunctionalityOfSurveySolutions]
+other = "ملاحظات وتقارير عن البرنامج."
+
+[Support]
+other = "دعم"
+
+[Support_LearnMoreAboutSurveySolutionsBy]
+other = "اعرف المزيد عن برنامج \"سيرفي سلوشنز \" عن طريق :"
+
+[WatchingInstructionalVideos]
+other = "{{ .latestversion }}مشاهدة العديد من تسجيلات الفيديو التعليمية{{ .a_close }},"
+
+[ReadingDocumentation]
+other = "{{ .latestversion }}قراءة الوثائق والمقالات{{ .a_close }}"
+
+[BrowsingThroughForumAndReleaseNotes]
+other = "{{ .latestversion }}تصفح منتدى المستخدم وتدوين الملاحظات{{ .a_close }}."
+
+[Support_GuideSoftwareDevelopmentThroughFeedbackAndFeatureRequests]
+other = "دليل تطوير البرمجيات من خلال التعليقات والاستعلامات."
+
+[OurClientsAndPartners]
+other = "العملاء والشركاء"
+
+[OurClients_Nso_Ngo_Universities_ThinkTanks_PrivateSurveyFirms]
+other = "مكاتب الإحصاء الوطنية ، المنظمات غير الحكومية ، الجامعات ، مراكز الفكر ومؤسسات استطلاعات الرأي الخاصة"
+
+[Statistics_FaceToFaceInterviews]
+other = "مقابلةً مباشرة"
+
+[Statistics_Surveys]
+other = "استبيانًا"
+
+[Statistics_Countries]
+other = "بلدًا"
+
+[SurveySolutionsVersion]
+other = "سيرفي سلوشنز {0} Survey Solutions"
+
+[WhatIsNewInVersion]
+other = "ماهو جديد النسخة {0}"
+
+[VersionHistory]
+other = "تاريخ النسخة"
+
+[Testimonials]
+other = "شهادات"
+
+[ContactUs]
+other = "اتصل بنا"
+
+[SuggestFeature]
+other = "اقترح خاصية"
+
+[EmailUs]
+other = "راسلنا"
+
+[AllRightsReserved]
+other = "كل الحقوق محفوظة."
+
+[Legal]
+other = "قانوني"
