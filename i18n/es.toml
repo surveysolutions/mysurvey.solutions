@@ -50,7 +50,7 @@ other = "Desarrolle sistemas de control de calidad automatizados, conecte Survey
 other = "Plataforma mundial confiable para la recopilación de datos"
 
 [SuSoIsUsedInCountries]
-other = "Survey Solutions es utilizado por agencias de recopilación de datos en {{ .Count }} países"
+other = "Survey Solutions es utilizado por agencias de recopilación de datos en <span id=map-countries></span> países"
 
 [QuestionnaireDesigner]
 other = "Diseñador de questionario"

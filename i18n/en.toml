@@ -50,7 +50,7 @@ other = "Develop systems of automated quality controls, connect Survey Solutions
 other = "Globally trusted platform for data collection"
 
 [SuSoIsUsedInCountries]
-other = "Survey Solutions is used by data collecting agencies in {{ .Count }} countries"
+other = "Survey Solutions is used by data collecting agencies in <span id=map-countries></span> countries"
 
 [QuestionnaireDesigner]
 other = "Questionnaire Designer"

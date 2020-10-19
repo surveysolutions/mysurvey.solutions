@@ -39,7 +39,7 @@
                     <a class=" d-block pb-0 text-white mb-1" href="https://mysurvey.solutions">Survey <br />
                         Solutions</a>
                     <a class="text-white version text-right"
-                        href="@releaseNotesLink">{{ i18n "VersionNumber" .Site.Params }}</a>
+                        href="{{ .Site.Params.releaseNotesLink }}">{{ i18n "VersionNumber" .Site.Params }}</a>
                 </span>
                 <button class="navbar-toggler align-self-lg-start ml-auto" type="button" data-toggle="collapse"
                     data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
@@ -86,7 +86,7 @@
                                 {{ end }}
                             </select>
 
-                            <ul class="float-right transparent-light-gray">
+                            <ul class="dropdown-menu selectpicker language-picker transparent-light-gray">
                                 {{ range $.Translations }}
                                 <li><a href="{{ .Permalink }}"><span class="language-code text-uppercase">{{ .Language.Lang }}</span> {{ .Language.LanguageName }}</a></li>
                                 {{ end }}
@@ -183,7 +183,7 @@
             <div class="container">
                 <div class="text-center mb-5">
                     <h2>{{ i18n "GloballyTrustedPlatformForDataCollection" }}</h2>
-                    <p class="h5 font-weight-bold">{{ i18n "SuSoIsUsedInCountries" 3 }}</p>
+                    <p class="h5 font-weight-bold">{{ i18n "SuSoIsUsedInCountries" | safeHTML }}</p>
                 </div>
                 <div id="map" style="height: 750px"></div>
             </div>
@@ -272,17 +272,17 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="statistic-block d-flex flex-column align-items-center">
-                        <div class="statistic-number font-weight-light mb-2 counter">333</div>
+                        <div class="statistic-number font-weight-light mb-2 counter" id="statistics-interviews"></div>
                         <div class="number-title font-weight-bold">{{ i18n "Statistics_FaceToFaceInterviews" }}</div>
                     </div>
                     <div class="line align-self-center mx-2"></div>
                     <div class="statistic-block d-flex flex-column align-items-center">
-                        <div class="statistic-number font-weight-light mb-2 counter">222</div>
+                        <div class="statistic-number font-weight-light mb-2 counter" id="statistics-surveys"></div>
                         <div class="number-title font-weight-bold">{{ i18n "Statistics_Surveys" }}</div>
                     </div>
                     <div class="line align-self-center mx-2"></div>
                     <div class="statistic-block d-flex flex-column align-items-center">
-                        <div class="statistic-number font-weight-light mb-2 counter">111</div>
+                        <div class="statistic-number font-weight-light mb-2 counter" id="statistics-countries"></div>
                         <div class="number-title font-weight-bold">{{ i18n "Statistics_Countries" }}</div>
                     </div>
                 </div>
@@ -303,7 +303,7 @@
                 <div class="col-sm-6 mb-4 mb-sm-0">
                     <h3 class="h2 font-weight-normal pb-2">{{ i18n "SurveySolutionsVersion" .Site.Params }}</h3>
                     <ul class="list-unstyled mb-0">
-                        <li><a href="@releaseNotesLink" target="_blank">{{ i18n "WhatIsNewInVersion" .Site.Params }}</a>
+                        <li><a href="{{ .Site.Params.releaseNotesLink }}" target="_blank">{{ i18n "WhatIsNewInVersion" .Site.Params }}</a>
                         </li>
                         <li><a href="https://support.mysurvey.solutions/release-notes"
                                 target="_blank">{{ i18n "VersionHistory" }}</a></li>
@@ -317,7 +317,7 @@
                         <ul class="list-unstyled mb-0">
                             <li><a href="https://forum.mysurvey.solutions/c/feature-suggestions"
                                     target="_blank">{{ i18n "SuggestFeature" }}</a></li>
-                            <li><a href="/ContactUs">{{ i18n "EmailUs" }}</a></li>
+                            <li><a href="{{ .Site.Params.contactformurl }}">{{ i18n "EmailUs" }}</a></li>
                             <li class="clearfix">
                                 <a href="https://www.facebook.com/mysurveysolutions" target="_blank"
                                     id="facebook">f</a><a
@@ -325,7 +325,7 @@
                                     id="youtube"></a>
                             </li>
                         </ul>
-                        <a href="/ContactUs" class="contact-icon d-none d-md-block"></a>
+                        <a href="{{ .Site.Params.contactformurl }}" class="contact-icon d-none d-md-block"></a>
                     </div>
                 </div>
             </div>

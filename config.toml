@@ -1,7 +1,9 @@
 baseURL = "https://mysurvey.solutions/"
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 title = "Survey Solutions"
 
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+defaultContentLanguageInSubdir = "true"
 DefaultContentLanguage = "en"
 
 [languages]
@@ -28,5 +30,6 @@ DefaultContentLanguage = "en"
 
 
 [params]
-releaseNotesLink = "https://support.mysurvey.solutions/release-notes/version-{Model.UrlLatestVersion}/"
 LatestVersion = "20.09"
+releaseNotesLink = "https://support.mysurvey.solutions/release-notes/version-20.09/"
+contactformurl = "https://mysurvey.solutions/ContactUs"

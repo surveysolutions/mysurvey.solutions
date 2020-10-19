@@ -50,7 +50,7 @@ other = "开发自动质控系统、将Survey Solutions与外部数据库进行�
 other = "全球信任的数据收集平台"
 
 [SuSoIsUsedInCountries]
-other = "Survey Solutions 的机构用户共来自全球{{ .Count }}个国家"
+other = "Survey Solutions 的机构用户共来自全球<span id=map-countries></span>个国家"
 
 [QuestionnaireDesigner]
 other = "问卷设计器（Designer）"
