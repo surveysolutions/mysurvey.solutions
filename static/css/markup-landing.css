@@ -1413,6 +1413,36 @@ footer {
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear; }
 
+.get-interviewer-app {
+  display: block;
+  padding: 0.625rem 0.625rem 0.625rem 5.125rem;
+  border: 0.125rem solid #dbdfe2;
+  border-radius: 0.625rem;
+  background-image: url("../img/get-button-logo.png");
+  background-repeat: no-repeat;
+  background-size: 55px;
+  width: 248px;
+  margin-bottom: 1rem;
+  color: #3f3f3f;
+  background-position: 15px 13px;
+  text-decoration: none;
+  text-align: left;
+  font: 12px/14px 'Fira Mono', monospace;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.05rem; }
+  .get-interviewer-app span {
+    display: block; }
+    .get-interviewer-app span.version {
+      margin: 0.3rem 0;
+      font-style: italic;
+      color: #3f3f3f;
+      text-transform: none; }
+  .get-interviewer-app:hover, .get-interviewer-app:focus {
+    text-decoration: none;
+    color: #000;
+    border-color: #a6a8a9; }
+
 @media (min-width: 1350px) {
   .tagline {
     font-size: 5rem;

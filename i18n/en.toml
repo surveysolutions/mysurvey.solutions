@@ -153,3 +153,18 @@ other = "All rights Reserved."
 
 [Legal]
 other = "Legal"
+
+[Download]
+other = "Download"
+
+[LatestInstaller]
+other = "Download the latest installer"
+
+[DownloadLine1]
+other = "Survey Solutions installation files are available for download from this page."
+
+[DownloadInstructions]
+other = "The requirements for the server, installation instructions and other relevant information is available at our {{ .a_open }}support site{{ .a_close }}"
+
+[InstallationFileSize]
+other = "File size {{ .Count }}Mb"
