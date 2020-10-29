@@ -31,6 +31,6 @@ DefaultContentLanguage = "en"
 
 [params]
 LatestVersion = "20.09"
-releaseNotesLink = "https://support.mysurvey.solutions/release-notes/version-20.09/"
+releaseNotesLink = "https://support.mysurvey.solutions/release-notes/version-20-09/"
 contactformurl = "https://mysurvey.solutions/ContactUs"
 downloadLink = "https://mysurvey.solutions/api/apps/installer/latest"

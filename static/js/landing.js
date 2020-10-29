@@ -32,6 +32,7 @@ var adjustNoticeHeight = function(){
 		var newHeight = height / 1.5;
 		$('#gallery').css("height", newHeight+"px"); 
 		$('#gallery .carousel-item .image').css("height", newHeight+"px");  
+		$('#gallery .carousel.gallery').css("height", newHeight+"px");  
 	}else{
 		$('.gallery').css("height", height+"px"); 
 		$('#gallery .carousel-item .image').css("height", height+"px"); 
@@ -153,7 +154,7 @@ $(document).ready(function () {
 $(document).ready(function(){ 
   
 	// Add smooth scrolling on all links inside the navbar
-	$("#gallery a, .nav-item .btn").on('click', function(event) {
+	$("#gallery .gallery a, .nav-item .btn").on('click', function(event) {
 		// Make sure this.hash has a value before overriding default behavior
 		if (this.hash !== "") {
 			// Prevent default anchor click behavior

@@ -88,8 +88,8 @@ other = "Data Analysis."
 [HQ_ReportingFunctionalityOfSurveySolutions]
 other = "Reporting functionality of Survey Solutions."
 
-[Support]
-other = "Support"
+[Documentation]
+other = "Documentation"
 
 [Support_LearnMoreAboutSurveySolutionsBy]
 other = "Learn more about Survey Solutions by:"
@@ -164,7 +164,7 @@ other = "Download the latest installer"
 other = "Survey Solutions installation files are available for download from this page."
 
 [DownloadInstructions]
-other = "The requirements for the server, installation instructions and other relevant information is available at our {{ .a_open }}support site{{ .a_close }}"
+other = "The requirements for the server, installation instructions and other relevant information is available at our {{ .a_open }}documentation{{ .a_close }}"
 
 [InstallationFileSize]
 other = "File size {{ .Count }}Mb"
