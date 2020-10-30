@@ -1,4 +1,5 @@
-baseURL = "https://surveysolutions.github.io/mysurvey.solutions/"
+baseURL = ""
+relativeURLs = true
 title = "Survey Solutions"
 
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
