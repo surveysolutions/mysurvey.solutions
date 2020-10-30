@@ -1,4 +1,4 @@
-baseURL = "https://mysurvey.solutions/"
+baseURL = "https://surveysolutions.github.io/mysurvey.solutions/"
 title = "Survey Solutions"
 
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
@@ -34,3 +34,4 @@ LatestVersion = "20.09"
 releaseNotesLink = "https://support.mysurvey.solutions/release-notes/version-20-09/"
 contactformurl = "https://mysurvey.solutions/ContactUs"
 downloadLink = "https://mysurvey.solutions/api/apps/installer/latest"
+demoArticleLink = "https://support.mysurvey.solutions/headquarters/config/demo-server/"
