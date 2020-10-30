@@ -86,11 +86,6 @@
                         <li class="nav-item">
                             <a class="btn btn-link" href="#download-section">Download</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="https://mysurvey.solutions" class="btn btn-link btn-bordered">
-                                Login
-                            </a>
-                        </li>
                         <li class="nav-item">{{ $lang := .Language.Lang}}
                             <div class="dropdown bootstrap-select language-picker transparent-light-gray">
                                 <button class="btn dropdown-toggle btn-light" type="button" id="dropdownMenuButton" data-toggle="dropdown"
@@ -261,11 +256,11 @@
                 <div class="container">
                     <div class="row align-items-center demo-server">
                         <div class="col-md-6  mb-4 mb-md-0">
-                            <a href="https://demo.mysurvey.solutions" target="_blank" class="laptop-icon d-block"></a>
+                            <a href="{{ .Site.Params.demoArticleLink }}" target="_blank" class="laptop-icon d-block"></a>
                         </div>
                         <div class="col-md-6">
                             <div class="feature mx-auto">
-                                <h3 class="mb-4"><a class="scale-underline" href="https://demo.mysurvey.solutions"
+                                <h3 class="mb-4"><a class="scale-underline" href="{{ .Site.Params.demoArticleLink }}"
                                         target="_blank">{{ i18n "PublicDemoServer" }}</a></h3>
                                 <p>{{ i18n "HQ_TestDriveOnTheDemoDerver" }}</p>
                                 <ul class="mb-0">
