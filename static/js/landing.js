@@ -96,7 +96,7 @@ $(document).ready(function () {
         }]
     });
 
-    $.getJSON('https://mysurvey.solutions/api/report/mapBySurveys', function (data) {
+    $.getJSON('https://pds.mysurvey.solutions/api/report/mapBySurveys', function (data) {
         // Instantiate the map
         Highcharts.mapChart('map', {
 
