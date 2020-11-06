@@ -124,7 +124,7 @@
                 
                 <div class="container text-left">
                     <div class="add-info p-5">
-                        <p class="h2 pb-4  ">{{ i18n "SetupYourOwnServer" }}</p>
+                        <!-- <p class="h2 pb-4  ">{{ i18n "SetupYourOwnServer" }}</p>
                         <p><a href="https://support.mysurvey.solutions/headquarters/config/server-setup/" target="_blank"
                             class="text-decoration-none text-light">Deploy using docker<span class="text-uppercase">
                                 &#9866;&#10095;</span></a></p>
@@ -136,7 +136,22 @@
                                 &#9866;&#10095;</span></a></p>
                         <p><a href="https://support.mysurvey.solutions/headquarters/config/server-installation/" target="_blank"
                             class="text-decoration-none text-light">Install on your Windows server<span class="text-uppercase">
-                                &#9866;&#10095;</span></a></p>
+                                &#9866;&#10095;</span></a></p> -->
+                                <p class="h2 pb-4"> Download the current 
+                                    <a href="{{ .Site.Params.releaseNotesLink }}" class="text-decoration-yes text-light"> 
+                                        <span class="version">{{ i18n "VersionNumber" .Site.Params }} </span>
+                                    </a>
+                                </p>
+                                <a href="{{ .Site.Params.downloadLink }}" id="dowload" class="get-interviewer-app mb-4">
+                                    <span><span>
+                                        <span class="">{{ i18n "Download" }}</span>
+                                    </span></span>
+                                </a>
+                                <p class="mb-0">
+                                    <a href="#download-section" target="_blank" class="text-decoration-none text-light">Information about Server Setup and Server Configuration 
+                                        <span class="text-uppercase"> &#9866;&#10095;</span>
+                                    </a>
+                                </p>
                     </div>
                     
                 </div>
@@ -152,6 +167,14 @@
                     {{ end }}
                 </div>
             </div>
+        </section>
+        <section class="wrapper-marquee"><!--  add "d-none" to class to hide -->
+            <div class="container">
+                <div class="marquee">
+                    <p>Survey Solution does not provide a cloud server services. Please download the installation file for local installation or cloud installation.</p>
+                </div>
+            </div>
+            
         </section>
         <section class="wrapper has-background py-5" id="about-section">
             <div class="container">
@@ -275,6 +298,119 @@
                     </div>
                 </div>
             </div>
+            <div class="wrapper has-background py-5" id="support-site-section">	
+                <div class="container">	
+                    <div class="row align-items-center support">	
+                        <div class="col-md-6 order-2 order-md-1">	
+                            <div class="feature mx-auto">	
+                                <h3 class="mb-4"><a class="scale-underline" href="https://support.mysurvey.solutions/"
+                                    target="_blank">Knowledge base</a></h3>
+                                <p>{{ i18n "Support_LearnMoreAboutSurveySolutionsBy" }}</p>	
+                                <ul class="pl-3">	
+                                    <li>{{ i18n "WatchingInstructionalVideos" (dict "Count" 2 "a_open" `<a href="https://www.youtube.com/channel/UCzGrZ3FiEu5NbDJB2GKazOA" target="_blank" id="video-tutorials">` "a_close" "</a>") | safeHTML }}	
+                                    </li>	
+                                    <li>{{ i18n "ReadingDocumentation" (dict "Count" 2 "a_open" `<a href="https://support.mysurvey.solutions/" target="_blank">` "a_close" "</a>") | safeHTML }}	
+
+
+                                    </li>	
+                                    <li>{{ i18n "BrowsingThroughForumAndReleaseNotes" (dict "Count" 2 "a_open" `<a href="https://forum.mysurvey.solutions/" target="_blank" id="user-forum">` "a_close" "</a>") | safeHTML }}	
+                                    </li>	
+                                </ul>	
+                                <p>{{ i18n "Support_GuideSoftwareDevelopmentThroughFeedbackAndFeatureRequests" }}</p>	
+                            </div>	
+                        </div>	
+                        <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">	
+                            <a href="http://support.mysurvey.solutions/" target="_blank"	
+                                class="laptop-icon d-block"></a>	
+                        </div>	
+                    </div>	
+                    <!-- <div class="divider"></div>	 -->
+                    <!-- <div class="documentation-block">	
+                        <h2 class="my-5 text-center"><a class="scale-underline" href="http://support.mysurvey.solutions/"	
+                            target="_blank">{{ i18n "Documentation" }}</a></h2>	
+                            <ul class="list-unstyled">	
+                                <li>	
+                                   <a class="text-decoration-none" href="https://support.mysurvey.solutions/getting-started/" target="_blank">	
+                                    <span class="doc-icon getstarted">GS	
+                                        <span class="badge">9999</span>	
+                                    </span>	
+
+                                    <span class="text">	
+                                        <span class="h3">Getting started</span>                                 	
+                                        <span>How to start working with Survey Solutions.</span> 	
+                                     </span>	
+                                    </a> 	
+                                </li>	
+                                <li>	
+                                    <a class="text-decoration-none" href="https://support.mysurvey.solutions/questionnaire-designer/" target="_blank">	
+                                    <span class="doc-icon designer">D	
+                                        <span class="badge">4</span>	
+                                    </span>	
+                                    <span class="text">	
+                                        <span class="h3">Questionnaire Designer</span>	
+                                        <span>How to use Designer, Survey Solutions' questionnaire design tool.</span>	
+                                    </span>	
+                                </a>	
+                                </li>	
+                                <li>	
+                                    <a class="text-decoration-none" href="https://support.mysurvey.solutions/headquarters/" target="_blank">	
+                                        <span class="doc-icon headquarter">HQ	
+                                            <span class="badge">4</span>	
+                                        </span>	
+                                        <span class="text">	
+                                            <span class="h3">Headquarters</span>	
+                                            <span>How to use Designer, Survey Solutions' questionnaire design tool.</span>	
+                                        </span>	
+                                    </a>	
+                                </li>	
+                                <li>	
+                                    <a class="text-decoration-none" href="https://support.mysurvey.solutions/supervisor/" target="_blank">	
+                                        <span class="doc-icon supervisor">S	
+                                            <span class="badge">4</span>	
+                                        </span>	
+                                        <span class="text">	
+                                            <span class="h3">Supervisors</span>	
+                                            <span>How to use Designer, Survey Solutions' questionnaire design tool.</span>	
+                                        </span>	
+                                    </a>	
+                                </li>	
+                                <li>	
+                                    <a class="text-decoration-none" href="https://support.mysurvey.solutions/interviewer/" target="_blank">	
+                                        <span class="doc-icon interviewer">I	
+                                            <span class="badge">4</span>	
+                                        </span>	
+                                        <span class="text">	
+                                            <span class="h3">Interveiwer</span>	
+                                            <span>How to use Designer, Survey Solutions' questionnaire design tool.</span>	
+                                        </span>	
+                                    </a>	
+                                </li>	
+                                <li>	
+                                    <a class="text-decoration-none" href="https://support.mysurvey.solutions/syntax-guide/" target="_blank">	
+                                        <span class="doc-icon programming">C#	
+                                            <span class="badge">4</span>	
+                                        </span>	
+                                        <span class="text">	
+                                            <span class="h3">Syntax guide</span>	
+                                            <span>How to use Designer, Survey Solutions' questionnaire design tool.</span>	
+                                        </span>	
+                                    </a>	
+                                </li>	
+                                <li>	
+                                    <a class="text-decoration-none" href="https://support.mysurvey.solutions/faq/" target="_blank">	
+                                        <span class="doc-icon faq">FAQ	
+                                            <span class="badge">4</span>	
+                                        </span>	
+                                        <span class="text">	
+                                            <span class="h3">FAQ</span>	
+                                            <span>Frequently asked question by our users.</span>	
+                                        </span>	
+                                    </a>	
+                                </li>	
+                            </ul>	
+                    </div>	 -->
+                </div>	
+            </div>
         </section>
         <section class="wrapper py-5" id="stats-section">
             <div class="container mb-5">
@@ -310,6 +446,166 @@
                 </div>
             </div>
         </section>
+        <section class="wrapper  image-background " id="download-section">	
+
+            <div class="container">
+                <div class="text-center mb-12">	
+                    <h2>{{ i18n "SetupYourOwnServer" }}</h2> 
+                </div>
+                <div class="text-center mb-5">	
+                    <p class="mb-0 h5 font-weight-bold">{{ i18n "DownloadInstructions" (dict "Count" 2 "a_open" `	
+                        <a href="https://support.mysurvey.solutions/headquarters/config/server-setup" target="_blank" class="font-weight-bold text-decoration-yes text-white">` "a_close" "</a>") | safeHTML }}</p>	
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="my-4 mx-5">
+	
+                            <a href="{{ .Site.Params.downloadLink }}" id="dowload" class="get-interviewer-app mb-1">
+                                <span><span>
+                                    <span class="">{{ i18n "Download" }}</span>
+                                </span></span>
+                            </a>
+
+                    </div>
+ 
+                    <div class="my-4 mx-5">
+                            <ul class="mb-0 server-instructions">
+                                <li><a href="https://support.mysurvey.solutions/headquarters/config/server-setup/" target="_blank"
+                                    class="text-decoration-none ">Deploy using docker</a></li>
+                                <li><a href="https://support.mysurvey.solutions/headquarters/config/azure-setup/" target="_blank"
+                                    class="text-decoration-none">Setup in Microsoft Azure</a></li>
+                                <li><a href="https://support.mysurvey.solutions/headquarters/config/aws-setup/" target="_blank"
+                                    class="text-decoration-none">Setup in Amazon Web Services</a></li>
+                                <li><a href="https://support.mysurvey.solutions/headquarters/config/server-installation/" target="_blank"
+                                    class="text-decoration-none">Install on your Windows server</a></li>
+                            </ul>
+                    </div>
+                </div>
+
+            </div>
+            
+
+            <!--<div class="container py-5">	
+                 <div class="text-center mb-5">	
+                    <h2>{{ i18n "SetupYourOwnServer" }}</h2> 	
+                    <p class="h5 font-weight-bold">{{ i18n "DownloadLine1" }}</p>	
+                </div>	
+                <div class="row justify-content-center">	
+                    <a href="{{ .Site.Params.downloadLink }}" id="dowload" class="get-interviewer-app mb-1">
+                        <span><span>
+                            <span class="">{{ i18n "Download" }}</span>
+                        </span></span>
+                    </a>
+                </div>	 
+                <div class="divider"></div>	 
+                <div class="documentation-block">	
+                    <h2 class="my-5 text-center"><a class="scale-underline" href="https://support.mysurvey.solutions/headquarters/config/"	
+                        target="_blank">Relevant information</a></h2>	
+                         <ul class="list-unstyled">	
+                            <li>	
+                                <a class="btn btn-animated" href="https://support.mysurvey.solutions/supervisor/" target="_blank">	
+                                    <span class="noselect">Survey Solution server</span>	
+                                </a>	
+                            </li>	
+                            <li>	
+                               <a class="btn btn-animated" href="https://support.mysurvey.solutions/getting-started/" target="_blank">	
+                                <span class="noselect">Requirements for the server</span>	
+                                </a> 	
+                            </li>	
+                            <li>	
+                                <a class="btn btn-animated" href="https://support.mysurvey.solutions/questionnaire-designer/" target="_blank">	
+                                    <span class="noselect">Instalation instructions</span>	
+                            </a>	
+                            </li>	
+                            <li>	
+                                <a class="btn btn-animated" href="https://support.mysurvey.solutions/headquarters/" target="_blank">	
+                                    <span class="noselect">Installation on AWS</span>	
+                                </a>	
+                            </li>	
+                        </ul> 
+                         <div class="animated-cards">	
+                            <div class="">	
+                                <a class="btn animated-card" href="https://support.mysurvey.solutions/supervisor/" target="_blank">	
+                                    <span class="noselect">Survey Solution server</span>	
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">	
+                                        <line class="top" x1="0" y1="0" x2="200%" y2="0"></line>	
+                                        <line class="left" x1="0" y1="100%" x2="0" y2="-200%"></line>	
+                                        <line class="bottom" x1="100%" y1="100%" x2="-200%" y2="100%"></line>	
+                                        <line class="right" x1="100%" y1="0" x2="100%" y2="1380"></line>	
+                                    </svg>	
+                                </a>	
+                            </div>	
+                            <div>	
+                               <a class="btn animated-card" href="https://support.mysurvey.solutions/getting-started/" target="_blank">	
+                                <span class="noselect">Requirements for the server</span>	
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">	
+                                    <line class="top" x1="0" y1="0" x2="200%" y2="0"></line>	
+                                    <line class="left" x1="0" y1="100%" x2="0" y2="-200%"></line>	
+                                    <line class="bottom" x1="100%" y1="100%" x2="-200%" y2="100%"></line>	
+                                    <line class="right" x1="100%" y1="0" x2="100%" y2="1380"></line>	
+                                </svg>	
+                                </a> 	
+                            </div>	
+                            <div>	
+                                <a class="btn animated-card" href="https://support.mysurvey.solutions/questionnaire-designer/" target="_blank">	
+                                    <span class="noselect">Instalation instructions</span>	
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">	
+                                        <line class="top" x1="0" y1="0" x2="200%" y2="0"></line>	
+                                        <line class="left" x1="0" y1="100%" x2="0" y2="-200%"></line>	
+                                        <line class="bottom" x1="100%" y1="100%" x2="-200%" y2="100%"></line>	
+                                        <line class="right" x1="100%" y1="0" x2="100%" y2="1380"></line>	
+                                    </svg>	
+                            </a>	
+                            </div>	
+                            <div>	
+                                <a class="btn animated-card" href="https://support.mysurvey.solutions/headquarters/" target="_blank">	
+                                    <span class="noselect">Installation on AWS</span>	
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">	
+                                        <line class="top" x1="0" y1="0" x2="200%" y2="0"></line>	
+                                        <line class="left" x1="0" y1="100%" x2="0" y2="-200%"></line>	
+                                        <line class="bottom" x1="100%" y1="100%" x2="-200%" y2="100%"></line>	
+                                        <line class="right" x1="100%" y1="0" x2="100%" y2="1380"></line>	
+                                    </svg>	
+                                </a>	
+                            </div>	
+
+
+                        </div>	
+
+                </div>	 
+
+            </div>	-->
+        </section>	
+        <section class="wrapper  image-background " id="download-section">	
+            <div class="wrapper ">
+                <div class="container">
+                    <div class="row align-items-center designer">
+                        <div class="col-md-6 order-2 order-md-1">
+                            <div class="feature mx-auto">
+                                <div class="mb-4 h3">{{ i18n "SetupYourOwnServer" }}</div>
+                                        <ul class="mb-0 server-instructions">
+                                            <li><a href="https://support.mysurvey.solutions/headquarters/config/server-setup/" target="_blank"
+                                                class="text-decoration-none ">Deploy using docker</a></li>
+                                            <li><a href="https://support.mysurvey.solutions/headquarters/config/azure-setup/" target="_blank"
+                                                class="text-decoration-none">Setup in Microsoft Azure</a></li>
+                                            <li><a href="https://support.mysurvey.solutions/headquarters/config/aws-setup/" target="_blank"
+                                                class="text-decoration-none">Setup in Amazon Web Services</a></li>
+                                            <li><a href="https://support.mysurvey.solutions/headquarters/config/server-installation/" target="_blank"
+                                                class="text-decoration-none">Install on your Windows server</a></li>
+                                        </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+                            <a href="{{ .Site.Params.downloadLink }}" id="dowload" class="get-interviewer-app mb-1 mx-auto">
+                                <span><span>
+                                    <span class="">{{ i18n "Download" }}</span>
+                                </span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+
     </main>
     <footer class="pt-4 pb-1">
         <div class="container">
