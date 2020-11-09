@@ -140,7 +140,7 @@ $(document).ready(function () {
         });
     });
 
-    $.getJSON('https://mysurvey.solutions/api/report/surveyStatistics', function (data) {
+    $.getJSON('https://pds.mysurvey.solutions/api/report/surveyStatistics', function (data) {
         $('#statistics-interviews')[0].textContent = data.interviewsCount;
         $('#statistics-surveys')[0].textContent = data.surveysCount;
         $('#statistics-countries')[0].textContent = data.countriesCount;
