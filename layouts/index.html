@@ -112,7 +112,7 @@
                                 <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
                                     {{ range $.Site.Home.AllTranslations }}
                                     <li><a class="dropdown-item {{ if (eq .Language.Lang $lang) }}selected active{{ end }}"
-                                            href="{{ .Permalink }}"><span
+                                            href="{{ .RelPermalink }}"><span
                                                 class="language-code text-uppercase">{{ .Language.Lang }}</span>
                                             {{ .Language.LanguageName }}</a></li>
                                     {{ end }}
