@@ -31,7 +31,7 @@ DefaultContentLanguage = "en"
 
 
 [params]
-LatestVersion = "20.01"
+LatestVersion = "21.01"
 releaseNotesLink = "https://support.mysurvey.solutions/release-notes/version-21-01/"
 contactformurl = "https://pds.mysurvey.solutions/ContactUs"
 downloadLink = "https://pds.mysurvey.solutions/api/apps/installer/latest"
