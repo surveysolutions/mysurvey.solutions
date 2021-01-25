@@ -112,7 +112,7 @@ other = "العملاء والشركاء"
 [OurClients_Nso_Ngo_Universities_ThinkTanks_PrivateSurveyFirms]
 other = "مكاتب الإحصاء الوطنية ، المنظمات غير الحكومية ، الجامعات ، مراكز الفكر ومؤسسات استطلاعات الرأي الخاصة"
 
-[Statistics_FaceToFaceInterviews]
+[Statistics_Interviews]
 other = "مقابلةً مباشرة"
 
 [Statistics_Surveys]

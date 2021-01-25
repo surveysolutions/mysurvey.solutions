@@ -112,7 +112,7 @@ other = "我们的客户或合作伙伴"
 [OurClients_Nso_Ngo_Universities_ThinkTanks_PrivateSurveyFirms]
 other = "政府统计机构、NGO、大学、智库或私营调研企业"
 
-[Statistics_FaceToFaceInterviews]
+[Statistics_Interviews]
 other = "面访"
 
 [Statistics_Surveys]

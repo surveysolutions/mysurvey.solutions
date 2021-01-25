@@ -109,8 +109,8 @@ other = "Nos clients et partenaires"
 [OurClients_Nso_Ngo_Universities_ThinkTanks_PrivateSurveyFirms]
 other = "Instituts nationaux de statistique, ONGs, universités, think tanks, cabinets privés"
 
-[Statistics_FaceToFaceInterviews]
-other = "ENTRETIENS FACE-À-FACE"
+[Statistics_Interviews]
+other = "ENTRETIENS"
 
 [Statistics_Surveys]
 other = "ENQUÊTES"

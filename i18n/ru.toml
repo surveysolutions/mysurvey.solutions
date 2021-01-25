@@ -112,7 +112,7 @@ other = "Наши клиенты и партнеры"
 [OurClients_Nso_Ngo_Universities_ThinkTanks_PrivateSurveyFirms]
 other = "Национальные статистические офисы, НКО, Экспертные группы, частные компании"
 
-[Statistics_FaceToFaceInterviews]
+[Statistics_Interviews]
 other = "Интервью"
 
 [Statistics_Surveys]
