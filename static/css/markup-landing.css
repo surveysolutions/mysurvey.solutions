@@ -1247,9 +1247,6 @@ section h2 {
   section h2 + p.h5 {
     color: #1e1aa2; }
 
-.wrapper a {
-  color: #000; }
-
 .has-background {
   background: #066ecb;
   background: linear-gradient(140deg, #066ecb 0%, #29c1ec 100%);
@@ -1437,6 +1434,11 @@ footer {
 #facebook, #youtube, #youtube:before, #youtube:after {
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear; }
+
+.download-section-link {
+  padding: 0.7rem 0rem 0.7rem 0rem;
+  width: 248px;
+}
 
 .get-interviewer-app {
   display: block;

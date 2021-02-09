@@ -372,9 +372,18 @@
                             <a href="{{ .Site.Params.downloadLink }}" id="dowload"
                                 class="get-interviewer-app mb-1 mx-auto">
                                 <span><span>
-                                        <span class="">{{ i18n "Download" }}</span>
-                                    </span></span>
+                                        <span>{{ i18n "Download" }}</span>
+                                </span></span>
                             </a>
+                            <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0 download-section-link mx-auto">
+                            <ul class="list-unstyled mb-1 server-instructions">
+                                <li><a href="{{ .Site.Params.releaseNotesLink }}"
+                                        target="_blank">{{ i18n "WhatIsNewInVersion" .Site.Params }}</a>
+                                </li>
+                                <li><a href="https://support.mysurvey.solutions/release-notes"
+                                        target="_blank">{{ i18n "VersionHistory" }}</a></li>
+                               </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -385,44 +394,13 @@
     <footer class="pt-4 pb-1">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 mb-4 mb-sm-0">
-                    <h3 class="h2 font-weight-normal pb-2">{{ i18n "SurveySolutionsVersion" .Site.Params }}</h3>
-                    <ul class="list-unstyled mb-0">
-                        <li><a href="{{ .Site.Params.releaseNotesLink }}"
-                                target="_blank">{{ i18n "WhatIsNewInVersion" .Site.Params }}</a>
-                        </li>
-                        <li><a href="https://support.mysurvey.solutions/release-notes"
-                                target="_blank">{{ i18n "VersionHistory" }}</a></li>
-                        <li><a href="http://www.capterra.com/p/153927/Survey-Solutions/"
-                                target="_blank">{{ i18n "Testimonials" }}</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-6">
-                    <div class="contact-information bg-white p-3 rounded position-relative">
-                        <p class="h2 font-weight-normal pb-2">{{ i18n "ContactUs" }}</p>
-                        <ul class="list-unstyled mb-0">
-                            <li><a href="https://forum.mysurvey.solutions/c/feature-suggestions"
-                                    target="_blank">{{ i18n "SuggestFeature" }}</a></li>
-                            <li><a href="{{ .Site.Params.contactformurl }}">{{ i18n "EmailUs" }}</a></li>
-                            <li class="clearfix">
-                                <a href="https://www.facebook.com/mysurveysolutions" target="_blank"
-                                    id="facebook">f</a><a
-                                    href="https://www.youtube.com/channel/UCzGrZ3FiEu5NbDJB2GKazOA" target="_blank"
-                                    id="youtube"></a>
-                            </li>
-                        </ul>
-                        <a href="{{ .Site.Params.contactformurl }}" class="contact-icon d-none d-md-block"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr />
-        <div class="container">
-            <div class="row">
                 <div class="col-12 legitimacy">
                     &copy; 2016&mdash;{{ now.Format "2006" }} {{ i18n "TheWorldBankGroup" }}<br>
                     {{ i18n "AllRightsReserved" }}<a href="https://www.worldbank.org/en/about/legal"
                         class="text-muted">{{ i18n "Legal" }}</a>
+                        <br /><a class="text-primary" href="/about/" _target="blank"><b class="text-primary">About the team</b></a>
+                        <a class="text-primary" href="http://www.capterra.com/p/153927/Survey-Solutions/"
+                                target="_blank">{{ i18n "Testimonials" }}</a>
                 </div>
             </div>
         </div>
