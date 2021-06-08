@@ -20,7 +20,7 @@ other = "Diseñe sus encuestas con una completa gama de preguntas estándar, uti
 other = "Segura y escalable"
 
 [CloudServers]
-other = "Conduzca sus encuestas en la nube altamente segura del Banco Mundial , la cual es escalable y gratuita o implemente Survey Solutions en sus propios servidores para controlar completamente quién y cómo accede a sus datos."
+other = "Los componentes del servidor de Survey Solutions se pueden instalar en sus propias instalaciones o en la nube."
 
 [Gis]
 other = "GIS"

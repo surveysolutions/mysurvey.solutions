@@ -20,7 +20,7 @@ other = "Concevez vos enquêtes avec toute la gamme de questions standard, utili
 other = "Sécurisé et évolutif"
 
 [CloudServers]
-other = "Menez vos enquêtes à partir du cloud gratuit, évolutif, et hautement sécurisé de la Banque Mondiale, ou déployez sur votre propre serveur afin de contrôler pleinement qui accède aux données et comment."
+other = ""
 
 [Gis]
 other = "SIG"
