@@ -1,3 +1,19 @@
+import { Octokit } from "https://cdn.skypack.dev/@octokit/rest";
+
+async function updateReleaseLinks() {
+    const octokit = new Octokit();
+    const result = await octokit.request('GET /repos/{owner}/{repo}/releases/latest', {
+        owner: 'surveysolutions',
+        repo: 'surveysolutions'
+    })
+    $('#download').attr('href', result.data.assets[0].browser_download_url);
+    const v = result.data.tag_name.substring(1, 6); // tags are vYY.MM.C format so this extracts YY.MM
+
+    const releaseNotes = `https://docs.mysurvey.solutions/release-notes/version-${v.replace('.', '-')}/`
+    $('#version-number').attr('href', releaseNotes);
+    $('#release-notes').attr('href', releaseNotes);
+ }
+
 // TYped in animation 
 $(document).ready(function(){
 	var typed = new Typed('#typed', {
@@ -21,6 +37,8 @@ $(document).ready(function(){
 	$("#user-forum").mouseleave(function(){
 		$(this).parents('.support').find('.laptop-icon').toggleClass( "user-forum" );
 	});
+
+    updateReleaseLinks();
 });
 
 // auto-height for the main gallery

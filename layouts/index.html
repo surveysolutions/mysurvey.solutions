@@ -35,8 +35,7 @@
                 <span class="navbar-brand">
                     <a class=" d-block pb-0 text-white mb-1" href="https://mysurvey.solutions">Survey <br />
                         Solutions</a>
-                    <a class="text-white version text-right"
-                        href="{{ .Site.Params.releaseNotesLink }}">{{ i18n "VersionNumber" .Site.Params }}</a>
+                    <a id="version-number" class="text-white version text-right" href="#">{{ i18n "VersionNumber" .Site.Params }}</a>
                 </span>
                 <button class="navbar-toggler align-self-lg-start ml-auto" type="button" data-toggle="collapse"
                     data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
@@ -369,7 +368,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
-                            <a href="{{ .Site.Params.downloadLink }}" id="dowload"
+                            <a href="#" id="download"
                                 class="get-interviewer-app mb-1 mx-auto">
                                 <span><span>
                                         <span>{{ i18n "Download" }}</span>
@@ -377,8 +376,7 @@
                             </a>
                             <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0 download-section-link mx-auto">
                             <ul class="list-unstyled mb-1 server-instructions">
-                                <li><a href="{{ .Site.Params.releaseNotesLink }}"
-                                        target="_blank">{{ i18n "WhatIsNewInVersion" .Site.Params }}</a>
+                                <li><a id="release-notes" href="#" target="_blank">{{ i18n "WhatIsNewInVersion" .Site.Params }}</a>
                                 </li>
                                 <li><a href="https://docs.mysurvey.solutions/release-notes"
                                         target="_blank">{{ i18n "VersionHistory" }}</a></li>
@@ -418,7 +416,7 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src='{{ "js/landing.js" | relURL }}' asp-append-version="true"></script>
+    <script src='{{ "js/landing.js" | relURL }}' type="module" asp-append-version="true"></script>
 
 </body>
 

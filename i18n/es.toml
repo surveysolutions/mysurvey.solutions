@@ -121,9 +121,6 @@ other = "Encuestas"
 [Statistics_Countries]
 other = "Paises"
 
-[SurveySolutionsVersion]
-other = "Survey Solutions {{ .latestversion }}"
-
 [WhatIsNewInVersion]
 other = "Qué hay de nuevo en la versión {{ .latestversion }}"
 

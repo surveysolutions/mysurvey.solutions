@@ -121,9 +121,6 @@ other = "调研"
 [Statistics_Countries]
 other = "国家"
 
-[SurveySolutionsVersion]
-other = "Survey Solutions {{ .latestversion }}"
-
 [WhatIsNewInVersion]
 other = "新版本的新增功能{{ .latestversion }}"
 

@@ -121,9 +121,6 @@ other = "Обследований"
 [Statistics_Countries]
 other = "Стран"
 
-[SurveySolutionsVersion]
-other = "Survey Solutions {{ .latestversion }}"
-
 [WhatIsNewInVersion]
 other = "Что нового в версии {{ .latestversion }}"
 

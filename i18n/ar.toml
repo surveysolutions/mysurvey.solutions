@@ -121,9 +121,6 @@ other = "استبيانًا"
 [Statistics_Countries]
 other = "بلدًا"
 
-[SurveySolutionsVersion]
-other = "سيرفي سلوشنز {0} Survey Solutions"
-
 [WhatIsNewInVersion]
 other = "ماهو جديد النسخة {0}"
 
