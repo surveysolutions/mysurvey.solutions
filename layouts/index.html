@@ -357,10 +357,12 @@
                             </a>
                             <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0 download-section-link mx-auto">
                             <ul class="list-unstyled mb-1 server-instructions">
-                                <li><a id="release-notes" href="#" target="_blank">{{ i18n "WhatIsNewInVersion" .Site.Params }}</a>
-                                </li>
+                                <li><a id="release-notes" href="#" 
+                                    target="_blank"
+                                    class="text-decoration-none">{{ i18n "WhatIsNewInVersion" .Site.Params }}</a></li>
                                 <li><a href="https://docs.mysurvey.solutions/release-notes"
-                                        target="_blank">{{ i18n "VersionHistory" }}</a></li>
+                                        target="_blank"
+                                        class="text-decoration-none">{{ i18n "VersionHistory" }}</a></li>
                                </ul>
                             </div>
                         </div>
@@ -368,7 +370,16 @@
                 </div>
             </div>
         </section>
-
+        <section class="wrapper " id="stats-section" style="padding-top: 1rem!important;">
+            <div class="container">
+                <div class="text-center">
+                    <h3>Survey Solutions user survey</h3>
+                    <p class="h6">We would like to invite you to participate in our user survey. After completing your data collection, please take a few minutes to share with us your valuable feedback and suggestions. Take part in our 
+                        <a href="/usersurvey" target="_blank">user survey</a>.
+                    </p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="pt-4 pb-1">
         <div class="container">

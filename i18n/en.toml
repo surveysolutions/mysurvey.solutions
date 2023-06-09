@@ -154,6 +154,9 @@ other = "Legal"
 [Download]
 other = "Download"
 
+[Start]
+other = "Start"
+
 [SetupYourOwnServer]
 other = "Setup a server and start your survey"
 
