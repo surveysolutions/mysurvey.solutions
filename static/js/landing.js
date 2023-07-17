@@ -1,4 +1,4 @@
-import { Octokit } from "https://cdn.skypack.dev/@octokit/rest";
+import { Octokit } from "https://cdn.skypack.dev/@octokit/rest@19.0.13";
 
 async function updateReleaseLinks() {
     const octokit = new Octokit();
