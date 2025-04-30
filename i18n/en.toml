@@ -164,10 +164,10 @@ other = "Setup a server and start your survey"
 other = "The requirements for the server, installation instructions and other relevant information is available at our {{ .a_open }}documentation{{ .a_close }}"
 
 [NoCloudOwnHosting]
-other = "Survey Solutions now helps users to standup and manage their own cloud or local server, instead of provisioning one on their behalf. Please visit this link to find detailed guidance, cost planning tools, FAQ and the latest version of Survey Solutions software. These will help you or your IT department to deploy a Survey Solutions server on your infrastructure and allow you to continue your data collection uninterrupted."
+other = "Survey Solutions helps users to standup and manage their own cloud or local server. Please visit this link to find detailed guidance, cost planning tools, FAQ and the latest version of Survey Solutions platform. These will help you or your IT department to deploy a Survey Solutions plarform on your infrastructure and allow you to continue your data collection uninterrupted."
 
 [Announcement]
-other = "Survey Solutions now helps users to standup and manage their own cloud or local server, instead of provisioning one on their behalf. Please visit our {{ .a_open }}documentation{{ .a_close }} to find detailed guidance, cost planning tools and frequently asked questions. These will help you or your IT department to deploy a Survey Solutions server on your infrastructure and allow you to continue your data collection uninterrupted."
+other = "Survey Solutions Team helps users to standup and manage their own cloud or local servers; supports IT departments in deployments of Survey Solutions platform on their infrastructure."
 
 [Announcement2]
-other = "If you have an existing server with us, it will remain active throughout your stated planned collection period"
+other = "Please visit our {{ .a_open }}documentation{{ .a_close }} to find detailed guidance, cost planning tools and frequently asked questions."
