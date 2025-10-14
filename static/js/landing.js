@@ -119,7 +119,7 @@ $(document).ready(function () {
         Highcharts.mapChart('map', {
 
             chart: {
-                map: Highcharts.maps["custom/world-highres3"]
+                map: Highcharts.maps["custom\world-highres3"]
             },
 
             title: {
