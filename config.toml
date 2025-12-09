@@ -31,5 +31,6 @@ DefaultContentLanguage = "en"
 
 
 [params]
-LatestVersion = "25.04"
+LatestVersion = "25.12"
 demoArticleLink = "https://docs.mysurvey.solutions/headquarters/config/demo-server/"
+
