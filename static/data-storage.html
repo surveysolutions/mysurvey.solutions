@@ -22,8 +22,8 @@
                 xhr.onreadystatechange = function () {
                     if (xhr.readyState != 4) return;
 
-                    if (/^https:\/\//.test(redirectUrl) || /^\//.test(redirectUrl)) {
-                        window.location = redirectUrl;
+                    if (/^https:\/\//.test(redirectUrl) || /^\/(?!\/)/.test(redirectUrl)) {
+                        window.location.assign(redirectUrl);
                     }
                 };
                 
