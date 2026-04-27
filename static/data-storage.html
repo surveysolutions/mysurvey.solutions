@@ -22,7 +22,9 @@
                 xhr.onreadystatechange = function () {
                     if (xhr.readyState != 4) return;
 
-                    window.location = redirectUrl;
+                    if (/^https:\/\//.test(redirectUrl) || /^\//.test(redirectUrl)) {
+                        window.location = redirectUrl;
+                    }
                 };
                 
                 var request ='state=' + dataExportState;

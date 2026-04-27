@@ -277,7 +277,7 @@ $(document).ready(function(){
         if(min<=max){
             $('.roller-title-number-'+slno).html(min);
             min=parseInt(min)+parseInt(increment);
-            setTimeout(function(){numberRoll(eval(slno),eval(min),eval(max),eval(increment),eval(timeout))},timeout);
+            setTimeout(function(){numberRoll(slno,min,max,increment,timeout)},timeout);
         }else{
             $('.roller-title-number-'+slno).html(max);
         }
