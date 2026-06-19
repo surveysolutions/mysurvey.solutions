@@ -15,6 +15,19 @@
                 var processingUrl = decodeURIComponent(state[1]);
                 var dataExportState = state[2];
 
+                var isSameOrigin = function(url) {
+                    try {
+                        var parsed = new URL(url, window.location.origin);
+                        return parsed.origin === window.location.origin;
+                    } catch (e) {
+                        return false;
+                    }
+                };
+
+                if (!isSameOrigin(processingUrl) || !isSameOrigin(redirectUrl)) {
+                    return;
+                }
+
                 var xhr = new XMLHttpRequest();
 
                 xhr.open("POST", processingUrl, true);
@@ -22,7 +35,7 @@
                 xhr.onreadystatechange = function () {
                     if (xhr.readyState != 4) return;
 
-                    window.location = redirectUrl;
+                    window.location.assign(redirectUrl);
                 };
                 
                 var request ='state=' + dataExportState;
