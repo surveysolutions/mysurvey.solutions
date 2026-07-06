@@ -1,6 +1,6 @@
 # Survey Solutions website
 
-This repository contains the homepage of Survey Solutions at [https://.musyrvey.solutions](https://mysurvey.solutions)
+This repository contains the homepage of Survey Solutions at [https://musyrvey.solutions](https://mysurvey.solutions)
 
 ## Contributing
 
