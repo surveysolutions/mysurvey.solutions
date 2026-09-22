@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <script type="text/javascript">
+        window.onload = function () {
+
+            var qs = getHashQueryString();
+            var encodedState = qs.get('state');
+
+            if (encodedState) {
+                var state = decodeState(encodedState).split(';');
+
+                var redirectUrl = decodeURIComponent(state[0]);
+                var processingUrl = decodeURIComponent(state[1]);
+                var dataExportState = state[2];
+
+                var xhr = new XMLHttpRequest();
+
+                xhr.open("POST", processingUrl, true);
+                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState != 4) return;
+
+                    window.location = redirectUrl;
+                };
+                
+                var request = new URLSearchParams();
+                request.set('state', dataExportState);
+
+                if (qs.has('code')) request.set('code', qs.get('code'));
+                else if (qs.has('access_token')) request.set('access_token', qs.get('access_token'));
+                
+                xhr.send(request.toString());
+            }
+        }
+
+        function getHashQueryString() {
+            var query = window.location.hash;
+            if(query === '') query = window.location.search;
+
+            return new URLSearchParams(query.substr(1));
+        }
+
+        function decodeState(state) {
+            var base64 = state.replace(/ /g, '+').replace(/-/g, '+').replace(/_/g, '/');
+            base64 += '='.repeat((4 - base64.length % 4) % 4);
+
+            return window.atob(base64);
+        }
+    </script>
+</head>
+<body>
+<div>Please wait, you will be automatically redirected to the export page of the Survey Solutions Headquarters website.</div>
+</body>
+</html>

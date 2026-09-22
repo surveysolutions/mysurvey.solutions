@@ -1,0 +1,2396 @@
+.content-with-paddings {
+    padding-left: 5.625rem;
+    padding-right: 2.725rem;
+}
+
+@media (max-width: 1199.98px) {
+    .content-with-paddings {
+        padding-left: 4rem;
+        padding-right: 1.875rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .content-with-paddings {
+        padding-left: 1.5rem;
+    }
+}
+
+/*!
+ * Generated with CSS Flag Sprite generator (https://www.country-flag-sprites.com/)
+ */
+.combo-box .country-flag {
+    padding: 0;
+}
+
+.country-flag {
+    display: inline-block;
+    width: 18px;
+    height: 12px;
+    background: url("../img/flags.png") no-repeat;
+}
+
+    .country-flag.country-flag-ar {
+        background-position: -162px 0;
+    }
+
+    .country-flag.country-flag-pg {
+        background-position: -198px -120px;
+    }
+
+    .country-flag.country-flag-cm {
+        background-position: -216px -24px;
+    }
+
+    .country-flag.country-flag-gn {
+        background-position: -36px -60px;
+    }
+
+    .country-flag.country-flag-ee {
+        background-position: -198px -36px;
+    }
+
+    .country-flag.country-flag-ga {
+        background-position: -144px -48px;
+    }
+
+    .country-flag.country-flag-tt {
+        background-position: -198px -156px;
+    }
+
+    .country-flag.country-flag-gg {
+        background-position: -234px -48px;
+    }
+
+    .country-flag.country-flag-vg {
+        background-position: -144px -168px;
+    }
+
+    .country-flag.country-flag-cv {
+        background-position: -18px -36px;
+    }
+
+    .country-flag.country-flag-ai {
+        background-position: -72px 0;
+    }
+
+    .country-flag.country-flag-ck {
+        background-position: -180px -24px;
+    }
+
+    .country-flag.country-flag-cy {
+        background-position: -36px -36px;
+    }
+
+    .country-flag.country-flag-vn {
+        background-position: -180px -168px;
+    }
+
+    .country-flag.country-flag-gd {
+        background-position: -180px -48px;
+    }
+
+    .country-flag.country-flag-bv {
+        background-position: 0 -24px;
+    }
+
+    .country-flag.country-flag-am {
+        background-position: -108px 0;
+    }
+
+    .country-flag.country-flag-mh {
+        background-position: -180px -96px;
+    }
+
+    .country-flag.country-flag-ye {
+        background-position: -252px -168px;
+    }
+
+    .country-flag.country-flag-fr {
+        background-position: -126px -48px;
+    }
+
+    .country-flag.country-flag-ht {
+        background-position: -270px -60px;
+    }
+
+    .country-flag.country-flag-ws {
+        background-position: -234px -168px;
+    }
+
+    .country-flag.country-flag-mu {
+        background-position: -90px -108px;
+    }
+
+    .country-flag.country-flag-mm {
+        background-position: -234px -96px;
+    }
+
+    .country-flag.country-flag-ie {
+        background-position: -36px -72px;
+    }
+
+    .country-flag.country-flag-gr {
+        background-position: -90px -60px;
+    }
+
+    .country-flag.country-flag-gt {
+        background-position: -126px -60px;
+    }
+
+    .country-flag.country-flag-ba {
+        background-position: 0 -12px;
+    }
+
+    .country-flag.country-flag-ua {
+        background-position: -270px -156px;
+    }
+
+    .country-flag.country-flag-kg {
+        background-position: -270px -72px;
+    }
+
+    .country-flag.country-flag-mc {
+        background-position: -90px -96px;
+    }
+
+    .country-flag.country-flag-mw {
+        background-position: -126px -108px;
+    }
+
+    .country-flag.country-flag-cf {
+        background-position: -108px -24px;
+    }
+
+    .country-flag.country-flag-cn {
+        background-position: -234px -24px;
+    }
+
+    .country-flag.country-flag-dk {
+        background-position: -108px -36px;
+    }
+
+    .country-flag.country-flag-ve {
+        background-position: -126px -168px;
+    }
+
+    .country-flag.country-flag-rs {
+        background-position: -162px -132px;
+    }
+
+    .country-flag.country-flag-np {
+        background-position: -54px -120px;
+    }
+
+    .country-flag.country-flag-bw {
+        background-position: -18px -24px;
+    }
+
+    .country-flag.country-flag-cg {
+        background-position: -126px -24px;
+    }
+
+    .country-flag.country-flag-kz {
+        background-position: -144px -84px;
+    }
+
+    .country-flag.country-flag-do {
+        background-position: -144px -36px;
+    }
+
+    .country-flag.country-flag-de {
+        background-position: -72px -36px;
+    }
+
+    .country-flag.country-flag-ad {
+        background-position: 0 0;
+    }
+
+    .country-flag.country-flag-rw {
+        background-position: -198px -132px;
+    }
+
+    .country-flag.country-flag-tz {
+        background-position: -252px -156px;
+    }
+
+    .country-flag.country-flag-be {
+        background-position: -54px -12px;
+    }
+
+    .country-flag.country-flag-sl {
+        background-position: -108px -144px;
+    }
+
+    .country-flag.country-flag-iq {
+        background-position: -108px -72px;
+    }
+
+    .country-flag.country-flag-fm {
+        background-position: -90px -48px;
+    }
+
+    .country-flag.country-flag-ge {
+        background-position: -198px -48px;
+    }
+
+    .country-flag.country-flag-ne {
+        background-position: -234px -108px;
+    }
+
+    .country-flag.country-flag-mq {
+        background-position: -18px -108px;
+    }
+
+    .country-flag.country-flag-kw {
+        background-position: -108px -84px;
+    }
+
+    .country-flag.country-flag-gl {
+        background-position: 0 -60px;
+    }
+
+    .country-flag.country-flag-cz {
+        background-position: -54px -36px;
+    }
+
+    .country-flag.country-flag-sh {
+        background-position: -36px -144px;
+    }
+
+    .country-flag.country-flag-fi {
+        background-position: -36px -48px;
+    }
+
+    .country-flag.country-flag-mn {
+        background-position: -252px -96px;
+    }
+
+    .country-flag.country-flag-bd {
+        background-position: -36px -12px;
+    }
+
+    .country-flag.country-flag-to {
+        background-position: -162px -156px;
+    }
+
+    .country-flag.country-flag-mk {
+        background-position: -198px -96px;
+    }
+
+    .country-flag.country-flag-ae {
+        background-position: -18px 0;
+    }
+
+    .country-flag.country-flag-fo {
+        background-position: -108px -48px;
+    }
+
+    .country-flag.country-flag-ls {
+        background-position: -270px -84px;
+    }
+
+    .country-flag.country-flag-in {
+        background-position: -72px -72px;
+    }
+
+    .country-flag.country-flag-ec {
+        background-position: -180px -36px;
+    }
+
+    .country-flag.country-flag-pt {
+        background-position: -54px -132px;
+    }
+
+    .country-flag.country-flag-pf {
+        background-position: -180px -120px;
+    }
+
+    .country-flag.country-flag-bb {
+        background-position: -18px -12px;
+    }
+
+    .country-flag.country-flag-pl {
+        background-position: -252px -120px;
+    }
+
+    .country-flag.country-flag-re {
+        background-position: -126px -132px;
+    }
+
+    .country-flag.country-flag-na {
+        background-position: -198px -108px;
+    }
+
+    .country-flag.country-flag-jm {
+        background-position: -198px -72px;
+    }
+
+    .country-flag.country-flag-me {
+        background-position: -126px -96px;
+    }
+
+    .country-flag.country-flag-dm {
+        background-position: -126px -36px;
+    }
+
+    .country-flag.country-flag-bz {
+        background-position: -54px -24px;
+    }
+
+    .country-flag.country-flag-si {
+        background-position: -54px -144px;
+    }
+
+    .country-flag.country-flag-lc {
+        background-position: -198px -84px;
+    }
+
+    .country-flag.country-flag-td {
+        background-position: 0 -156px;
+    }
+
+    .country-flag.country-flag-kn {
+        background-position: -54px -84px;
+    }
+
+    .country-flag.country-flag-sy {
+        background-position: -234px -144px;
+    }
+
+    .country-flag.country-flag-gw {
+        background-position: -162px -60px;
+    }
+
+    .country-flag.country-flag-ky {
+        background-position: -126px -84px;
+    }
+
+    .country-flag.country-flag-ag {
+        background-position: -54px 0;
+    }
+
+    .country-flag.country-flag-sz {
+        background-position: -252px -144px;
+    }
+
+    .country-flag.country-flag-bg {
+        background-position: -90px -12px;
+    }
+
+    .country-flag.country-flag-hk {
+        background-position: -198px -60px;
+    }
+
+    .country-flag.country-flag-yt {
+        background-position: -270px -168px;
+    }
+
+    .country-flag.country-flag-ni {
+        background-position: 0 -120px;
+    }
+
+    .country-flag.country-flag-pm {
+        background-position: -270px -120px;
+    }
+
+    .country-flag.country-flag-gm {
+        background-position: -18px -60px;
+    }
+
+    .country-flag.country-flag-az {
+        background-position: -270px 0;
+    }
+
+    .country-flag.country-flag-gf {
+        background-position: -216px -48px;
+    }
+
+    .country-flag.country-flag-it {
+        background-position: -162px -72px;
+    }
+
+    .country-flag.country-flag-es {
+        background-position: -270px -36px;
+    }
+
+    .country-flag.country-flag-mf {
+        background-position: -144px -96px;
+    }
+
+    .country-flag.country-flag-gs {
+        background-position: -108px -60px;
+    }
+
+    .country-flag.country-flag-tw {
+        background-position: -234px -156px;
+    }
+
+    .country-flag.country-flag-mt {
+        background-position: -72px -108px;
+    }
+
+    .country-flag.country-flag-pn {
+        background-position: 0 -132px;
+    }
+
+    .country-flag.country-flag-wf {
+        background-position: -216px -168px;
+    }
+
+    .country-flag.country-flag-us {
+        background-position: -36px -168px;
+    }
+
+    .country-flag.country-flag-ml {
+        background-position: -216px -96px;
+    }
+
+    .country-flag.country-flag-gi {
+        background-position: -270px -48px;
+    }
+
+    .country-flag.country-flag-zm {
+        background-position: -18px -180px;
+    }
+
+    .country-flag.country-flag-tl {
+        background-position: -108px -156px;
+    }
+
+    .country-flag.country-flag-dj {
+        background-position: -90px -36px;
+    }
+
+    .country-flag.country-flag-pw {
+        background-position: -72px -132px;
+    }
+
+    .country-flag.country-flag-sg {
+        background-position: -18px -144px;
+    }
+
+    .country-flag.country-flag-li {
+        background-position: -216px -84px;
+    }
+
+    .country-flag.country-flag-vi {
+        background-position: -162px -168px;
+    }
+
+    .country-flag.country-flag-hr {
+        background-position: -252px -60px;
+    }
+
+    .country-flag.country-flag-ms {
+        background-position: -54px -108px;
+    }
+
+    .country-flag.country-flag-kp {
+        background-position: -72px -84px;
+    }
+
+    .country-flag.country-flag-sa {
+        background-position: -216px -132px;
+    }
+
+    .country-flag.country-flag-ly {
+        background-position: -54px -96px;
+    }
+
+    .country-flag.country-flag-cr {
+        background-position: -270px -24px;
+    }
+
+    .country-flag.country-flag-nr {
+        background-position: -72px -120px;
+    }
+
+    .country-flag.country-flag-sm {
+        background-position: -126px -144px;
+    }
+
+    .country-flag.country-flag-za {
+        background-position: 0 -180px;
+    }
+
+    .country-flag.country-flag-mx {
+        background-position: -144px -108px;
+    }
+
+    .country-flag.country-flag-gy {
+        background-position: -180px -60px;
+    }
+
+    .country-flag.country-flag-id {
+        background-position: -18px -72px;
+    }
+
+    .country-flag.country-flag-py {
+        background-position: -90px -132px;
+    }
+
+    .country-flag.country-flag-pk {
+        background-position: -234px -120px;
+    }
+
+    .country-flag.country-flag-ax {
+        background-position: -252px 0;
+    }
+
+    .country-flag.country-flag-bj {
+        background-position: -144px -12px;
+    }
+
+    .country-flag.country-flag-dz {
+        background-position: -162px -36px;
+    }
+
+    .country-flag.country-flag-ps {
+        background-position: -36px -132px;
+    }
+
+    .country-flag.country-flag-gq {
+        background-position: -72px -60px;
+    }
+
+    .country-flag.country-flag-tm {
+        background-position: -126px -156px;
+    }
+
+    .country-flag.country-flag-bf {
+        background-position: -72px -12px;
+    }
+
+    .country-flag.country-flag-my {
+        background-position: -162px -108px;
+    }
+
+    .country-flag.country-flag-sd {
+        background-position: -270px -132px;
+    }
+
+    .country-flag.country-flag-jo {
+        background-position: -216px -72px;
+    }
+
+    .country-flag.country-flag-hu {
+        background-position: 0 -72px;
+    }
+
+    .country-flag.country-flag-mp {
+        background-position: 0 -108px;
+    }
+
+    .country-flag.country-flag-bo {
+        background-position: -216px -12px;
+    }
+
+    .country-flag.country-flag-nl {
+        background-position: -18px -120px;
+    }
+
+    .country-flag.country-flag-tf {
+        background-position: -18px -156px;
+    }
+
+    .country-flag.country-flag-sj {
+        background-position: -72px -144px;
+    }
+
+    .country-flag.country-flag-ma {
+        background-position: -72px -96px;
+    }
+
+    .country-flag.country-flag-la {
+        background-position: -162px -84px;
+    }
+
+    .country-flag.country-flag-bs {
+        background-position: -252px -12px;
+    }
+
+    .country-flag.country-flag-jp {
+        background-position: -234px -72px;
+    }
+
+    .country-flag.country-flag-fj {
+        background-position: -54px -48px;
+    }
+
+    .country-flag.country-flag-sc {
+        background-position: -252px -132px;
+    }
+
+    .country-flag.country-flag-er {
+        background-position: -252px -36px;
+    }
+
+    .country-flag.country-flag-kh {
+        background-position: 0 -84px;
+    }
+
+    .country-flag.country-flag-lv {
+        background-position: -36px -96px;
+    }
+
+    .country-flag.country-flag-sb {
+        background-position: -234px -132px;
+    }
+
+    .country-flag.country-flag-ao {
+        background-position: -144px 0;
+    }
+
+    .country-flag.country-flag-eu {
+        background-position: -18px -48px;
+    }
+
+    .country-flag.country-flag-lr {
+        background-position: -252px -84px;
+    }
+
+    .country-flag.country-flag-tc {
+        background-position: -270px -144px;
+    }
+
+    .country-flag.country-flag-bt {
+        background-position: -270px -12px;
+    }
+
+    .country-flag.country-flag-bl {
+        background-position: -162px -12px;
+    }
+
+    .country-flag.country-flag-tr {
+        background-position: -180px -156px;
+    }
+
+    .country-flag.country-flag-km {
+        background-position: -36px -84px;
+    }
+
+    .country-flag.country-flag-je {
+        background-position: -180px -72px;
+    }
+
+    .country-flag.country-flag-is {
+        background-position: -144px -72px;
+    }
+
+    .country-flag.country-flag-sr {
+        background-position: -180px -144px;
+    }
+
+    .country-flag.country-flag-tv {
+        background-position: -216px -156px;
+    }
+
+    .country-flag.country-flag-ph {
+        background-position: -216px -120px;
+    }
+
+    .country-flag.country-flag-hm {
+        background-position: -216px -60px;
+    }
+
+    .country-flag.country-flag-tj {
+        background-position: -72px -156px;
+    }
+
+    .country-flag.country-flag-mv {
+        background-position: -108px -108px;
+    }
+
+    .country-flag.country-flag-al {
+        background-position: -90px 0;
+    }
+
+    .country-flag.country-flag-vu {
+        background-position: -198px -168px;
+    }
+
+    .country-flag.country-flag-cd {
+        background-position: -90px -24px;
+    }
+
+    .country-flag.country-flag-aw {
+        background-position: -234px 0;
+    }
+
+    .country-flag.country-flag-nu {
+        background-position: -90px -120px;
+    }
+
+    .country-flag.country-flag-bi {
+        background-position: -126px -12px;
+    }
+
+    .country-flag.country-flag-uy {
+        background-position: -54px -168px;
+    }
+
+    .country-flag.country-flag-ug {
+        background-position: 0 -168px;
+    }
+
+    .country-flag.country-flag-ci {
+        background-position: -162px -24px;
+    }
+
+    .country-flag.country-flag-tn {
+        background-position: -144px -156px;
+    }
+
+    .country-flag.country-flag-nz {
+        background-position: -108px -120px;
+    }
+
+    .country-flag.country-flag-no {
+        background-position: -36px -120px;
+    }
+
+    .country-flag.country-flag-hn {
+        background-position: -234px -60px;
+    }
+
+    .country-flag.country-flag-an {
+        background-position: -126px 0;
+    }
+
+    .country-flag.country-flag-gh {
+        background-position: -252px -48px;
+    }
+
+    .country-flag.country-flag-pr {
+        background-position: -18px -132px;
+    }
+
+    .country-flag.country-flag-pa {
+        background-position: -144px -120px;
+    }
+
+    .country-flag.country-flag-um {
+        background-position: -18px -168px;
+    }
+
+    .country-flag.country-flag-vc {
+        background-position: -108px -168px;
+    }
+
+    .country-flag.country-flag-ng {
+        background-position: -270px -108px;
+    }
+
+    .country-flag.country-flag-il {
+        background-position: -54px -72px;
+    }
+
+    .country-flag.country-flag-au {
+        background-position: -216px 0;
+    }
+
+    .country-flag.country-flag-qa {
+        background-position: -108px -132px;
+    }
+
+    .country-flag.country-flag-mz {
+        background-position: -180px -108px;
+    }
+
+    .country-flag.country-flag-tg {
+        background-position: -36px -156px;
+    }
+
+    .country-flag.country-flag-st {
+        background-position: -198px -144px;
+    }
+
+    .country-flag.country-flag-ki {
+        background-position: -18px -84px;
+    }
+
+    .country-flag.country-flag-tk {
+        background-position: -90px -156px;
+    }
+
+    .country-flag.country-flag-as {
+        background-position: -180px 0;
+    }
+
+    .country-flag.country-flag-eg {
+        background-position: -216px -36px;
+    }
+
+    .country-flag.country-flag-nc {
+        background-position: -216px -108px;
+    }
+
+    .country-flag.country-flag-fk {
+        background-position: -72px -48px;
+    }
+
+    .country-flag.country-flag-eh {
+        background-position: -234px -36px;
+    }
+
+    .country-flag.country-flag-af {
+        background-position: -36px 0;
+    }
+
+    .country-flag.country-flag-gb {
+        background-position: -162px -48px;
+    }
+
+    .country-flag.country-flag-cu {
+        background-position: 0 -36px;
+    }
+
+    .country-flag.country-flag-va {
+        background-position: -90px -168px;
+    }
+
+    .country-flag.country-flag-sn {
+        background-position: -144px -144px;
+    }
+
+    .country-flag.country-flag-sv {
+        background-position: -216px -144px;
+    }
+
+    .country-flag.country-flag-th {
+        background-position: -54px -156px;
+    }
+
+    .country-flag.country-flag-ru {
+        background-position: -180px -132px;
+    }
+
+    .country-flag.country-flag-ch {
+        background-position: -144px -24px;
+    }
+
+    .country-flag.country-flag-lu {
+        background-position: -18px -96px;
+    }
+
+    .country-flag.country-flag-zw {
+        background-position: -36px -180px;
+    }
+
+    .country-flag.country-flag-so {
+        background-position: -162px -144px;
+    }
+
+    .country-flag.country-flag-bn {
+        background-position: -198px -12px;
+    }
+
+    .country-flag.country-flag-md {
+        background-position: -108px -96px;
+    }
+
+    .country-flag.country-flag-lb {
+        background-position: -180px -84px;
+    }
+
+    .country-flag.country-flag-at {
+        background-position: -198px 0;
+    }
+
+    .country-flag.country-flag-by {
+        background-position: -36px -24px;
+    }
+
+    .country-flag.country-flag-uz {
+        background-position: -72px -168px;
+    }
+
+    .country-flag.country-flag-ke {
+        background-position: -252px -72px;
+    }
+
+    .country-flag.country-flag-nf {
+        background-position: -252px -108px;
+    }
+
+    .country-flag.country-flag-bm {
+        background-position: -180px -12px;
+    }
+
+    .country-flag.country-flag-mr {
+        background-position: -36px -108px;
+    }
+
+    .country-flag.country-flag-ro {
+        background-position: -144px -132px;
+    }
+
+    .country-flag.country-flag-io {
+        background-position: -90px -72px;
+    }
+
+    .country-flag.country-flag-kr {
+        background-position: -90px -84px;
+    }
+
+    .country-flag.country-flag-et {
+        background-position: 0 -48px;
+    }
+
+    .country-flag.country-flag-om {
+        background-position: -126px -120px;
+    }
+
+    .country-flag.country-flag-bh {
+        background-position: -108px -12px;
+    }
+
+    .country-flag.country-flag-br {
+        background-position: -234px -12px;
+    }
+
+    .country-flag.country-flag-gu {
+        background-position: -144px -60px;
+    }
+
+    .country-flag.country-flag-pe {
+        background-position: -162px -120px;
+    }
+
+    .country-flag.country-flag-se {
+        background-position: 0 -144px;
+    }
+
+    .country-flag.country-flag-ca {
+        background-position: -72px -24px;
+    }
+
+    .country-flag.country-flag-cl {
+        background-position: -198px -24px;
+    }
+
+    .country-flag.country-flag-mo {
+        background-position: -270px -96px;
+    }
+
+    .country-flag.country-flag-sk {
+        background-position: -90px -144px;
+    }
+
+    .country-flag.country-flag-ir {
+        background-position: -126px -72px;
+    }
+
+    .country-flag.country-flag-co {
+        background-position: -252px -24px;
+    }
+
+    .country-flag.country-flag-gp {
+        background-position: -54px -60px;
+    }
+
+    .country-flag.country-flag-mg {
+        background-position: -162px -96px;
+    }
+
+    .country-flag.country-flag-lk {
+        background-position: -234px -84px;
+    }
+
+    .country-flag.country-flag-lt {
+        background-position: 0 -96px;
+    }
+
+.language-picker .country-flag {
+    margin-right: 5px;
+}
+
+html {
+    font-size: 16px;
+    position: relative;
+    min-height: 100%;
+}
+
+    html body {
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.125rem;
+        color: #3f3f3f;
+        margin-bottom: 60px;
+        background-image: -webkit-gradient(linear, left top, right top, from(#dbdfe2), to(#dbdfe2));
+        background-image: linear-gradient(to right, #dbdfe2 0%, #dbdfe2 100%);
+        background-repeat: repeat-x;
+        background-repeat: repeat-y;
+        background-size: 12px 100%;
+    }
+
+.navbar-brand {
+    font-weight: 700;
+    background-image: url("../img/portal-suso-logo-white.png");
+    background-repeat: no-repeat;
+    background-size: 1rem 3rem;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .navbar-brand {
+        background-image: url("../img/portal-suso-logo1.png");
+        background-size: 1rem 3rem;
+    }
+}
+
+.navbar-nav {
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+}
+
+.page-header,
+.text-block {
+    text-align: left;
+    word-break: break-word;
+}
+
+    .page-header p,
+    .text-block p {
+        font-size: 1rem;
+        line-height: 1.125rem;
+        word-break: break-word;
+    }
+
+        .page-header p:last-child,
+        .text-block p:last-child {
+            margin-bottom: 0;
+        }
+
+    .page-header h1,
+    .text-block h1 {
+        font: 1.75rem/2rem "Roboto";
+        font-weight: 300;
+        margin-bottom: 1.5rem;
+    }
+
+        .page-header h1:only-child,
+        .text-block h1:only-child {
+            margin-bottom: 0;
+        }
+
+h2, .h2 {
+    font: 2rem/2.125rem "Roboto";
+    font-weight: 300;
+}
+
+h3, .h3 {
+    font: 1.5rem/1.625rem "Roboto";
+    font-weight: 400;
+}
+
+.label {
+    font-weight: 700;
+}
+
+.legitimacy {
+    font-size: 0.75rem;
+    line-height: 0.825rem;
+    color: #a6a8a9;
+}
+
+    .legitimacy a {
+        color: #a6a8a9;
+    }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.mw-550 {
+    max-width: 550px;
+}
+
+.mw-750 {
+    max-width: 750px;
+}
+
+.width-410 {
+    width: 400px;
+    max-width: 400px;
+}
+
+.help-block {
+    margin: 0.25rem;
+    display: inline-block;
+}
+
+.contains-error .help-block {
+    color: #dc3545;
+}
+
+.contains-error .form-control:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+.contains-error .form-control {
+    color: #dc3545;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (min-width: 2000px) {
+    .two-column-xxl {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+        .two-column-xxl > div:last-of-type {
+            margin-left: 2rem;
+        }
+}
+
+.btn {
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    padding: 0.75rem 0.625rem;
+    letter-spacing: 0.0625rem;
+    font-family: 'Fira Mono', monospace;
+    font-weight: 500;
+}
+
+    .btn.btn-lg {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .btn.btn-sm {
+        padding: 0.25rem 0.5rem;
+    }
+
+    .btn.btn-success {
+        color: #fff;
+        background-color: #3ca21a;
+        border-color: #3ca21a;
+    }
+
+        .btn.btn-success:active:focus {
+            background-color: #2c7613;
+            border-color: #2c7613;
+        }
+
+        .btn.btn-success:hover, .btn.btn-success:focus {
+            background-color: #2c7613;
+            border-color: #2c7613;
+        }
+
+    .btn.transparent-light-gray {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+        .btn.transparent-light-gray:hover, .btn.transparent-light-gray:focus, .btn.transparent-light-gray:active {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+.scale-underline {
+    background: -webkit-gradient(linear, left top, right top, from(#CDE0F1), to(#CDE0F1)) no-repeat 50% 100%, -webkit-gradient(linear, left top, right top, from(#CDE0F1), to(#CDE0F1)) no-repeat 50% 100%;
+    background: linear-gradient(to right, #CDE0F1, #CDE0F1) no-repeat 50% 100%, linear-gradient(to right, #CDE0F1, #CDE0F1) no-repeat 50% 100%;
+    background-size: 0 4px;
+    padding-bottom: 0.5rem;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+    .scale-underline:hover, .scale-underline:focus {
+        text-decoration: none;
+        background-size: 50% 4px,100% 4px;
+    }
+
+.btn-group {
+    padding: 0.125rem 0;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 5px;
+}
+
+    .btn-group:last-of-type {
+        margin-right: 0;
+    }
+
+    .btn-group.btn-group-sm .btn {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+        .btn-group.btn-group-sm .btn input {
+            display: block;
+            position: absolute;
+            left: -999999px;
+        }
+
+        .btn-group.btn-group-sm .btn:focus, .btn-group.btn-group-sm .btn:hover {
+            -webkit-box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+            box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+        }
+
+.btn-clear,
+.btn-close {
+    padding: 0.625rem;
+    background-color: transparent;
+    z-index: 10;
+}
+
+    .btn-clear polyline,
+    .btn-close polyline {
+        stroke: #a6a8a9;
+        stroke-width: 2;
+        opacity: .5;
+    }
+
+    .btn-clear:hover, .btn-clear:focus, .btn-clear:active,
+    .btn-close:hover,
+    .btn-close:focus,
+    .btn-close:active {
+        outline: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+        .btn-clear:hover polyline, .btn-clear:focus polyline, .btn-clear:active polyline,
+        .btn-close:hover polyline,
+        .btn-close:focus polyline,
+        .btn-close:active polyline {
+            opacity: 1;
+        }
+
+#top-btn {
+    position: fixed;
+    z-index: 50;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    opacity: 0;
+    visibility: hidden;
+    padding: 0.625rem;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+}
+
+    #top-btn:hover span {
+        border-top-color: #066ecb;
+        border-left-color: #066ecb;
+    }
+
+        #top-btn:hover span:nth-child(2) {
+            border-top-color: #0c89f8;
+            border-left-color: #0c89f8;
+        }
+
+        #top-btn:hover span:nth-child(3) {
+            border-top-color: #56adfa;
+            border-left-color: #56adfa;
+        }
+
+    #top-btn span {
+        display: block;
+        width: 1.25rem;
+        height: 1.25rem;
+        border-top: .25rem solid #29ece6;
+        border-left: .25rem solid #29ece6;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        margin: 0;
+        -webkit-transition: border-color 0.2s linear;
+        transition: border-color 0.2s linear;
+        -webkit-animation: animate 1.6s infinite;
+        animation: animate 1.6s infinite;
+    }
+
+        #top-btn span:nth-child(2) {
+            -webkit-animation-delay: -0.2s;
+            animation-delay: -0.2s;
+        }
+
+        #top-btn span:nth-child(3) {
+            -webkit-animation-delay: -0.4s;
+            animation-delay: -0.4s;
+        }
+
+@-webkit-keyframes animate {
+    0% {
+        opacity: 0;
+        -webkit-transform: rotate(45deg) translate(10px, 10px);
+        transform: rotate(45deg) translate(10px, 10px);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: rotate(45deg) translate(-10px, -10px);
+        transform: rotate(45deg) translate(-10px, -10px);
+    }
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        -webkit-transform: rotate(45deg) translate(10px, 10px);
+        transform: rotate(45deg) translate(10px, 10px);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: rotate(45deg) translate(-10px, -10px);
+        transform: rotate(45deg) translate(-10px, -10px);
+    }
+}
+
+.switch-view rect {
+    fill: transparent;
+    stroke: white;
+    stroke-width: .25rem;
+}
+
+.switch-view line {
+    stroke: white;
+    stroke-width: .125rem;
+}
+
+.switch-view polygon {
+    stroke: white;
+    stroke-width: .125rem;
+    fill: white;
+}
+
+.language-picker .language-code {
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.language-picker .btn {
+    text-transform: uppercase;
+    border: 1px solid #dbdfe2;
+    padding: 0.625rem;
+}
+
+.language-picker .dropdown-menu .dropdown-item {
+    padding: 0.5rem 0.625rem;
+}
+
+.footer .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 150px;
+}
+
+.footer .language-picker .btn {
+    font: 12px/14px monospace;
+}
+
+.footer .language-picker .dropdown-menu .dropdown-item {
+    font: 12px/14px monospace;
+}
+
+.transparent-light-gray > .dropdown-toggle {
+    background-color: transparent;
+    color: #fff;
+}
+
+    .transparent-light-gray > .dropdown-toggle:hover, .transparent-light-gray > .dropdown-toggle:focus, .transparent-light-gray > .dropdown-toggle:active, .transparent-light-gray > .dropdown-toggle:hover:active {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #fff;
+    }
+
+.transparent-light-gray.show > .btn-light.dropdown-toggle {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+textarea {
+    overflow-x: hidden;
+}
+
+    input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+        font-size: 0.875rem;
+        font-weight: normal;
+        font-style: italic;
+        color: #c5ced3 !important;
+    }
+
+    input:-moz-placeholder, textarea:-moz-placeholder {
+        font-size: 0.875rem;
+        font-weight: normal;
+        font-style: italic;
+        color: #c5ced3 !important;
+    }
+
+    input::-moz-placeholder, textarea::-moz-placeholder {
+        font-size: 0.875rem;
+        font-weight: normal;
+        font-style: italic;
+        color: #c5ced3 !important;
+    }
+
+    input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+        font-size: 0.875rem;
+        font-weight: normal;
+        font-style: italic;
+        color: #c5ced3 !important;
+    }
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type=radio] {
+    display: block;
+    position: absolute;
+    left: -999999px;
+}
+
+.form-check {
+    font-weight: 300;
+    padding-left: 0;
+    color: #a6a8a9;
+}
+
+    .form-check label {
+        padding: 0.75rem;
+        padding-left: 2.25rem;
+        margin-bottom: 0;
+        width: 100%;
+        position: relative;
+    }
+
+    .form-check input[type=radio] ~ label .tick {
+        display: block;
+        position: absolute;
+        top: 0.5625rem;
+        left: 0.625rem;
+        width: 1.125rem;
+        height: 1.125rem;
+        background: transparent url("../img/questionnaire-sprite.png") no-repeat;
+        vertical-align: middle;
+        background-size: 793px 18px;
+        background-position: 4px 2px;
+    }
+
+@media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+    .form-check input[type=radio] ~ label .tick {
+        /* on retina, use image that's scaled by 2 */
+        background-image: url("../img/../img/questionnaire-sprite2k.png");
+        background-size: 793px 18px;
+    }
+}
+
+.form-check input[type=radio]:checked + label {
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.form-check input[type=radio] + label .tick {
+    background-position: -326px 2px;
+}
+
+.form-check input[type=radio] + label:hover .tick, .form-check input[type=radio]:focus + label .tick, .form-check input[type=radio] + label:focus .tick {
+    background-position: -367px 2px;
+}
+
+.form-check input[type=radio]:checked + label .tick {
+    background-position: -408px 2px;
+}
+
+.form-check input[type=radio]:checked + label:hover .tick, .form-check input[type=radio]:checked + label:focus .tick, .form-check input[type=radio]:checked:focus + label .tick {
+    background-position: -449px 2px;
+}
+
+.form-check input[type=radio]:disabled + label .tick {
+    background-position: -572px 2px;
+}
+
+.form-check input[type=radio]:disabled + label:hover .tick, .form-check input[type=radio]:disabled + label:focus .tick {
+    background-position: -613px 2px;
+}
+
+.form-check input[type=radio]:checked:disabled + label .tick {
+    background-position: -490px 2px;
+}
+
+.form-check input[type=radio]:checked:disabled + label:hover .tick, .form-check input[type=radio]:checked:disabled + label:focus .tick {
+    background-position: -531px 2px;
+}
+
+.field {
+    background-color: #fff;
+    border: 1px solid #eeeff0;
+    border-radius: 0.4rem;
+    margin-bottom: 0.35rem;
+}
+
+    .field .form-control {
+        width: 100%;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 0.75rem;
+        border-radius: 7px;
+        max-height: 500px;
+        padding-right: 2rem;
+        border: none;
+        resize: none;
+    }
+
+        .field .form-control:hover, .field .form-control:focus {
+            outline: none;
+        }
+
+    .field .dropdown .btn {
+        padding: 0.75rem;
+        padding-right: 2rem;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: none;
+        background-color: transparent;
+        color: #495057;
+        border: none;
+        letter-spacing: 0;
+        font-family: inherit;
+        font-weight: 500;
+    }
+
+        .field .dropdown .btn:hover, .field .dropdown .btn:focus {
+            outline: none !important;
+            background-color: transparent;
+            color: #495057;
+            -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
+
+        .field .dropdown .btn:after {
+            display: none;
+        }
+
+        .field .dropdown .btn.bs-placeholder {
+            color: #c5ced3;
+            font-style: italic;
+            font-weight: 400;
+        }
+
+            .field .dropdown .btn.bs-placeholder:hover, .field .dropdown .btn.bs-placeholder:focus {
+                color: #c5ced3;
+            }
+
+    .field .dropdown .dropdown-menu.show {
+        width: 100%;
+        min-width: 100% !important;
+    }
+
+    .field .dropdown .dropdown-menu .dropdown-item {
+        padding: 0.75rem 1rem;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+        .field .dropdown .dropdown-menu .dropdown-item .text {
+            padding-left: 0.75rem;
+        }
+
+        .field .dropdown .dropdown-menu .dropdown-item .country-flag + .text {
+            padding-left: 0.25rem;
+        }
+
+    .field .dropdown li {
+        border-bottom: 1px solid #dbdfe2;
+    }
+
+        .field .dropdown li:last-of-type {
+            border-bottom: none;
+        }
+
+        .field .dropdown li.no-results {
+            padding: 0.75rem 1.75rem;
+        }
+
+    .field .dropdown .bs-searchbox {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+        .field .dropdown .bs-searchbox .form-control {
+            border: 1px solid #dbdfe2;
+        }
+
+    .field .fit-width {
+        width: 100%;
+    }
+
+.form-control.flatpickr[readonly] {
+    background-color: #fff;
+}
+
+.status {
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+    padding-left: 1rem;
+    font-style: italic;
+}
+
+.multiselect.form-control {
+    padding: 0;
+}
+
+.context-menu-list {
+    text-align: left;
+}
+
+    .context-menu-list .context-menu-item {
+        padding: 0.5rem 1rem;
+    }
+
+        .context-menu-list .context-menu-item.context-menu-separator {
+            padding: 0;
+        }
+
+            .context-menu-list .context-menu-item.context-menu-separator:hover, .context-menu-list .context-menu-item.context-menu-separator:focus {
+                background-color: transparent;
+            }
+
+        .context-menu-list .context-menu-item:hover, .context-menu-list .context-menu-item:focus {
+            background-color: #dfe3e4;
+            color: #000;
+        }
+
+.modal-header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-right: 3rem;
+    padding-left: 1.625rem;
+}
+
+    .modal-header .modal-title {
+        font-size: 1.625rem;
+        line-height: 1.75rem;
+        font-weight: 300;
+    }
+
+        .modal-header .modal-title:not(:last-of-type) {
+            margin-bottom: 0.25rem;
+        }
+
+        .modal-header .modal-title:last-of-type {
+            margin-bottom: 0;
+        }
+
+    .modal-header .btn-close {
+        position: absolute;
+        top: 0.3rem;
+        right: 1rem;
+    }
+
+    .modal-header .badge {
+        padding: 0.375rem;
+        font-weight: 400;
+        font-size: 0.875rem;
+    }
+
+    .modal-header h6 {
+        font-size: 1.25rem;
+        line-height: 1.375rem;
+        font-weight: 300;
+    }
+
+        .modal-header h6:last-of-type {
+            margin-bottom: 0;
+        }
+
+    .modal-header .sub-header {
+        font-size: 0.875rem;
+        line-height: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+.modal-body {
+    text-align: left;
+    font-size: 0.875rem;
+    line-height: 1rem;
+}
+
+    .modal-body label {
+        font-weight: 700;
+    }
+
+    .modal-body p {
+        margin: 1rem 0.625rem;
+    }
+
+    .modal-body .table thead {
+        letter-spacing: 0.5px;
+        color: #a6a8a9;
+    }
+
+    .modal-body.pt-0 {
+        border-radius: 0;
+    }
+
+    .modal-body.px-0 .container {
+        margin: 1rem 0;
+        padding-left: 1rem;
+        padding-right: 1.625rem;
+    }
+
+    .modal-body .question {
+        margin-bottom: 0.5rem;
+        max-width: 35rem;
+    }
+
+        .modal-body .question:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .modal-body .question .question-text {
+            margin-bottom: 0;
+        }
+
+    .modal-body .details .contains-error input {
+        border-color: #dc3545;
+    }
+
+    .modal-body .administration-block .answer-block {
+        background-color: rgba(238, 239, 240, 0.5);
+    }
+
+.modal-footer {
+    text-align: left;
+    padding-left: 1.625rem;
+}
+
+    .modal-footer .btn {
+        font-size: 0.75rem;
+        line-height: 0.875rem;
+    }
+
+        .modal-footer .btn:last-of-type {
+            margin-left: auto;
+        }
+
+#rejectRequest .modal-header {
+    border-top: 6px solid #dd2c2c;
+    color: #dd2c2c;
+}
+
+#approveRequest .modal-header {
+    border-top: 6px solid #28a428;
+    color: #28a428;
+}
+
+.markdown-wrapper {
+    min-height: 7.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    border: 0.0625rem solid #dfe3e4;
+}
+
+    .markdown-wrapper > div {
+        width: 50%;
+        padding: 1.25rem;
+    }
+
+    .markdown-wrapper .markdownEditor {
+        background-color: #F1F3F5;
+        border-right: 0.175rem solid #dfe3e4;
+    }
+
+        .markdown-wrapper .markdownEditor textarea {
+            display: block;
+            height: 100%;
+            border-color: transparent;
+            outline: none;
+            resize: none;
+            width: 100%;
+            background-color: transparent;
+        }
+
+.table mark {
+    padding: 0;
+    background-color: #FFFF00;
+}
+
+.table.dataTable thead tr th {
+    border-bottom: none;
+}
+
+.table.dataTable tbody td {
+    padding: 0.75rem;
+}
+
+.table th, .table td {
+    font-size: 0.875rem;
+    line-height: 1rem;
+    word-break: break-word;
+    vertical-align: middle;
+}
+
+.table thead tr {
+    background-color: #17a2b8;
+    color: #E2F4F8;
+}
+
+    .table thead tr th {
+        vertical-align: top;
+        font-size: 0.75rem;
+        line-height: 0.875rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        padding: 0.5rem 0.75rem;
+    }
+
+.table tbody .active {
+    background-color: #def2f5;
+}
+
+.table tbody tr {
+    -webkit-transition: background-color 0.2s linear 0s;
+    transition: background-color 0.2s linear 0s;
+}
+
+    .table tbody tr .title-cell {
+        font-size: 1.125rem;
+        line-height: 1.25rem;
+    }
+
+    .table tbody tr td span {
+        color: #a6a8a9;
+    }
+
+    .table tbody tr td a {
+        color: #2aa9cb;
+        text-decoration: underline;
+    }
+	.table tbody tr td.for-admin {
+        background-color: #facfff;
+    }
+
+.table tbody .list-inline {
+    margin-bottom: 0;
+}
+
+    .table tbody .list-inline .list-inline-item:not(:last-child) {
+        margin-right: 0.2rem;
+    }
+
+.table.table-striped-custom .even {
+    background-color: #edeff0;
+}
+
+    .table.table-striped-custom .even:hover {
+        background-color: #dfe3e4;
+    }
+
+.table tbody tr.Cancelled td, .table tbody tr.Archived td {
+    color: #6a1ab9;
+}
+
+    .table tbody tr.Cancelled td a, .table tbody tr.Cancelled td *, .table tbody tr.Archived td a, .table tbody tr.Archived td * {
+        color: #6a1ab9;
+    }
+
+    .table tbody tr.Cancelled td span.expand:before, .table tbody tr.Cancelled td span.expand:after, .table tbody tr.Archived td span.expand:before, .table tbody tr.Archived td span.expand:after {
+        background-color: #6a1ab9;
+    }
+
+.table tbody tr.Rejected td, .table tbody tr.Stopped td {
+    color: #a60c22;
+}
+
+    .table tbody tr.Rejected td a, .table tbody tr.Rejected td *, .table tbody tr.Stopped td a, .table tbody tr.Stopped td * {
+        color: #a60c22;
+    }
+
+    .table tbody tr.Rejected td span.expand:before, .table tbody tr.Rejected td span.expand:after, .table tbody tr.Stopped td span.expand:before, .table tbody tr.Stopped td span.expand:after {
+        background-color: #a60c22;
+    }
+
+.table tbody tr.Completed td {
+    color: #28a428;
+}
+
+    .table tbody tr.Completed td a, .table tbody tr.Completed td * {
+        color: #28a428;
+    }
+
+    .table tbody tr.Completed td span.expand:before, .table tbody tr.Completed td span.expand:after {
+        background-color: #28a428;
+    }
+
+.table tbody tr.has-warning {
+    -webkit-box-shadow: inset 0 1rem 2rem rgba(255, 238, 186, 0.3), inset 0 -1rem 2rem rgba(255, 238, 186, 0.3);
+    box-shadow: inset 0 1rem 2rem rgba(255, 238, 186, 0.3), inset 0 -1rem 2rem rgba(255, 238, 186, 0.3);
+}
+
+.table tbody tr.not-read {
+    font-weight: 900;
+}
+
+.table tbody tr .version {
+    color: #28a428;
+}
+
+    .table tbody tr .version span {
+        color: #a6a8a9;
+    }
+
+    .table tbody tr .version.outdated {
+        color: #000;
+    }
+
+.table.table-with-open-row td:first-of-type, .table.table-with-open-row th:first-of-type {
+    width: 2.625rem;
+    max-width: 2.625rem;
+}
+
+.table.table-with-open-row td span.expand {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+}
+
+    .table.table-with-open-row td span.expand:before, .table.table-with-open-row td span.expand:after {
+        content: "";
+        position: absolute;
+        background-color: #3f3f3f;
+        -webkit-transition: all 0.25s ease-out 0s;
+        transition: all 0.25s ease-out 0s;
+    }
+
+    .table.table-with-open-row td span.expand:before {
+        top: 0;
+        left: 50%;
+        width: 2px;
+        height: 100%;
+        margin-left: -1px;
+    }
+
+    .table.table-with-open-row td span.expand:after {
+        top: 50%;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        margin-top: -1px;
+    }
+
+.table.table-with-open-row .active td span.expand:before {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.table.table-with-open-row .active td span.expand:after {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.table.table-with-open-row .open-details-row {
+    background-color: #f2f9fb;
+    -webkit-transition: all 0.5s linear 0s;
+    transition: all 0.5s linear 0s;
+}
+
+.table.table-with-open-row.table-blue-style.table-hover .open-details-row:hover, .table.table-with-open-row.table-blue-style.table-hover .open-details-row:focus {
+    background-color: #e2f2f6;
+}
+
+.details-block,
+.credentials {
+    padding-right: 2.625rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+    .details-block .information-unit,
+    .credentials .information-unit {
+        border-bottom: 2px solid #fff;
+    }
+
+.credentials {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+    .credentials > span {
+        padding-right: 0.3125rem;
+        display: inline-block;
+    }
+
+        .credentials > span:last-of-type {
+            padding-right: 0;
+        }
+
+    .credentials .information-unit {
+        width: 250px;
+    }
+
+    .credentials .value {
+        font-family: 'Fira Mono', monospace;
+    }
+
+.information-unit {
+    margin-left: 2.625rem;
+    width: 420px;
+    padding: 0.375rem 0;
+}
+
+    .information-unit > span {
+        display: inline-block;
+        margin-right: 0.25rem;
+    }
+
+    .information-unit .value {
+        font-weight: 700;
+        color: #3f3f3f;
+    }
+
+.table-ordered thead tr th {
+    padding-right: 25px !important;
+    position: relative;
+    cursor: pointer;
+}
+
+    .table-ordered thead tr th:after {
+        display: inline-block;
+        content: "" !important;
+        width: 0;
+        height: 0;
+        border-top: 0.625rem solid #fff;
+        border-right: 0.375rem solid transparent;
+        border-left: 0.375rem solid transparent;
+        position: absolute;
+        top: 0.75rem;
+        right: 0.75rem !important;
+        opacity: 0.4;
+    }
+
+    .table-ordered thead tr th.sorting_asc:after {
+        border-top: none;
+        border-bottom: 0.625rem solid #fff;
+        opacity: 1;
+    }
+
+    .table-ordered thead tr th.sorting_desc:after {
+        border-top-color: #fff;
+        opacity: 1;
+    }
+
+    .table-ordered thead tr th:before {
+        display: none !important;
+    }
+
+    .table-ordered thead tr th.sorting_disabled.sorting_desc, .table-ordered thead tr th.sorting_disabled.sorting_asc {
+        color: gray;
+    }
+
+    .table-ordered thead tr th.sorting_disabled:after {
+        display: none !important;
+    }
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #008ca1;
+}
+
+.page-link {
+    color: #17a2b8;
+}
+
+.dataTables_wrapper {
+    position: relative;
+}
+
+    .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .loading {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 100;
+        width: 100%;
+        text-align: center;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.1);
+    }
+
+        .dataTables_wrapper .dataTables_processing div, .dataTables_wrapper .loading div {
+            background-color: white;
+            padding: 30px 40px;
+            display: inline-block;
+            font: 24px/26px "RobotoLight";
+            margin-top: 10px;
+            -webkit-box-shadow: 9px 9px 3px rgba(0, 0, 0, 0.1), 0 0 3px #a6a8a9;
+            box-shadow: 9px 9px 3px rgba(0, 0, 0, 0.1), 0 0 3px #a6a8a9;
+        }
+
+    .dataTables_wrapper .dataTable {
+        width: 100% !important;
+    }
+
+    .dataTables_wrapper .dataTables_paginate {
+        position: relative;
+        padding: 40px 0 10px 0;
+        overflow: hidden;
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+        .dataTables_wrapper .dataTables_paginate > span {
+            display: block;
+            position: absolute;
+            top: 10px;
+            left: 0;
+        }
+
+        .dataTables_wrapper .dataTables_paginate .paginate_button {
+            padding: 6px 12px;
+            cursor: pointer;
+        }
+
+            .dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+                color: #a6a8a9;
+                text-decoration: none;
+                cursor: not-allowed;
+            }
+
+            .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+                color: #a6a8a9 !important;
+            }
+
+        .dataTables_wrapper .dataTables_paginate > .paginate_button {
+            float: left;
+            padding: 5px 12px;
+        }
+
+    .dataTables_wrapper .dataTables_info, .dataTables_wrapper .download-report {
+        clear: both;
+        float: right;
+        padding-top: 0.755em;
+        padding-bottom: 10px;
+        font: 13px/15px Arial, Helvetica, sans-serif;
+        padding-left: 20px;
+        text-align: right;
+    }
+
+.dataTables_filter label {
+    float: right;
+    font-size: 0;
+    color: transparent;
+    min-height: 30px;
+    position: relative;
+}
+
+    .dataTables_filter label input {
+        height: 40px;
+        font-size: 13px;
+        line-height: 15px;
+        color: #3f3f3f;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid #dbdfe2;
+        width: 300px;
+        padding: 5px 30px 5px 10px;
+    }
+
+        .dataTables_filter label input:not(:placeholder-shown) + .btn-clear {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .dataTables_filter label input[type="search"]::-webkit-search-decoration, .dataTables_filter label input[type="search"]::-webkit-search-cancel-button, .dataTables_filter label input[type="search"]::-webkit-search-results-button, .dataTables_filter label input[type="search"]::-webkit-search-results-decoration {
+            display: none;
+        }
+
+    .dataTables_filter label .btn-clear {
+        position: absolute;
+        top: 0;
+        right: 0;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        visibility: hidden;
+    }
+
+        .dataTables_filter label .btn-clear span {
+            background-color: transparent;
+            width: 18px;
+            height: 18px;
+            position: relative;
+            margin: 0;
+            opacity: .5;
+            filter: alpha(opacity=50);
+            display: block;
+        }
+
+            .dataTables_filter label .btn-clear span:before, .dataTables_filter label .btn-clear span:after {
+                display: block;
+                content: "";
+                width: 18px;
+                height: 2px;
+                background-color: #a6a8a9;
+                -webkit-transform: rotate(45deg);
+                transform: rotate(45deg);
+                position: relative;
+                top: 8px;
+                -webkit-transition: background .2s linear 0s;
+                transition: background .2s linear 0s;
+            }
+
+            .dataTables_filter label .btn-clear span:after {
+                -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+                top: 6px;
+            }
+
+table.dataTable td, table.dataTable th {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.out-of-screen {
+    position: absolute;
+    left: -99999px;
+}
+
+table.dataTable.fixedHeader-floating, table.dataTable.fixedHeader-locked {
+    background-color: white;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+table.dataTable.fixedHeader-floating {
+    position: fixed !important;
+}
+
+table.dataTable.fixedHeader-locked {
+    position: absolute !important;
+}
+
+@media print {
+    table.fixedHeader-floating {
+        display: none;
+    }
+}
+
+.table.card-view thead {
+    display: none;
+}
+
+.table.card-view tbody tr:not(.table-info):not(.open-details-row) {
+    float: left;
+    width: 20rem;
+    margin: 0.5rem;
+    border: 0.0625rem solid rgba(0, 0, 0, 0.125);
+    border-radius: .25rem;
+}
+
+    .table.card-view tbody tr:not(.table-info):not(.open-details-row) td {
+        padding: 0.5rem;
+        border: none;
+        border-bottom: 0.0625rem solid #dee2e6;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+        .table.card-view tbody tr:not(.table-info):not(.open-details-row) td:before {
+            content: attr(data-label) ": ";
+            font-size: 0.75rem;
+            color: #808080;
+            width: 6rem;
+            margin-right: 0.625rem;
+        }
+
+        .table.card-view tbody tr:not(.table-info):not(.open-details-row) td ul {
+            width: 60%;
+        }
+
+        .table.card-view tbody tr:not(.table-info):not(.open-details-row) td:last-of-type {
+            border-bottom: none;
+        }
+
+.table.card-view.table-with-open-row tr {
+    position: relative;
+}
+
+    .table.card-view.table-with-open-row tr:not(.table-info):not(.open-details-row) td:first-child {
+        border-bottom: none;
+    }
+
+    .table.card-view.table-with-open-row tr td:first-child {
+        position: absolute;
+        right: 0;
+    }
+
+        .table.card-view.table-with-open-row tr td:first-child:before {
+            display: none;
+        }
+
+    .table.card-view.table-with-open-row tr.open-details-row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+    }
+
+        .table.card-view.table-with-open-row tr.open-details-row td {
+            border: 0.0625rem solid rgba(0, 0, 0, 0.125);
+            border-left: none;
+            border-right: none;
+            max-width: 100%;
+            width: 100%;
+            position: relative;
+        }
+
+            .table.card-view.table-with-open-row tr.open-details-row td .information-unit {
+                width: 360px;
+                margin-left: 0.4rem;
+                margin-right: 1rem;
+            }
