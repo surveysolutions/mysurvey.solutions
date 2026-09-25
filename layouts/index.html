@@ -133,9 +133,9 @@
                 <div class="container text-left">
                     <div class="add-info p-5">
                         <p>{{ i18n "Announcement" }}</p>
-                        <p>{{ i18n "Announcement2" (dict "Count" 2 "a_open" `<a class="text-decoration-yes text-light" href="https://docs.mysurvey.solutions/" target="_blank">` "a_close" "</a>") | safeHTML }}</p>
+                        <p>{{ i18n "Announcement2" (dict "Count" 2 "a_open" `<a class="text-decoration-yes text-light" href="https://docs.mysurvey.solutions/" target="_blank" rel="noopener noreferrer">` "a_close" "</a>") | safeHTML }}</p>
                           <p class="mb-0 font-weight-bold">
-                            <a href="#download-section" target="_blank" class="text-decoration-none text-light">Server
+                            <a href="#download-section" class="text-decoration-none text-light">Server
                                 setup and configuration
                                 <span class="text-uppercase"> &#9866;&#10095;</span>
                             </a>
@@ -161,13 +161,13 @@
                 <div class="text-center mb-5">
                     <h2>{{ i18n "WhatIsSurveySolutions" }}</h2>
                     <p class="h5 font-weight-bold">
-                        {{ i18n "SurveySolutionsIsFreeSoftware" (dict "Count" 2 "a_open" `<a href="http://www.worldbank.org/" target="_blank">` "a_close" "</a>") | safeHTML }}
+                        {{ i18n "SurveySolutionsIsFreeSoftware" (dict "Count" 2 "a_open" `<a href="https://www.worldbank.org/" target="_blank" rel="noopener noreferrer">` "a_close" "</a>") | safeHTML }}
                     </p>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
                         <div class="icon-text pb-3 capture-data">
-                            <h3 class="pb-2"><a target="_blank"
+                            <h3 class="pb-2"><a target="_blank" rel="noopener noreferrer"
                                     href="https://docs.mysurvey.solutions/interviewer/answering-all-question-types/">{{ i18n "CaptureAnyTypeOfDataWithEase" }}</a>
                             </h3>
                             <p>{{ i18n "DesignerFeatures" }}</p>
@@ -177,7 +177,7 @@
                         <div class="icon-text pb-3 secure-scalable">
                             <h3 class="pb-2"><a
                                     href="https://docs.mysurvey.solutions/headquarters/"
-                                    target="_blank">{{ i18n "SecureAndScalable" }}</a> </h3>
+                                    target="_blank" rel="noopener noreferrer">{{ i18n "SecureAndScalable" }}</a> </h3>
                             <p>{{ i18n "CloudServers" }}</p>
                         </div>
                     </div>
@@ -187,8 +187,8 @@
                         <div class="icon-text control-quality">
                             <h3 class="pb-2"><a
                                     href="https://docs.mysurvey.solutions/syntax-guide/syntax-guide-using-linq-expressions-for-conditions-in-rosters/"
-                                    target="blank">{{ i18n "ControlQualityOfYourData" }}</a></h3>
-                            <p>{{ i18n "ConditionsAndLookupTables" (dict "Count" 2 "a_open" "<a href=https://www.microsoft.com/net target=_blank>" "a_close" "</a>" ) | safeHTML }}
+                                    target="_blank" rel="noopener noreferrer">{{ i18n "ControlQualityOfYourData" }}</a></h3>
+                            <p>{{ i18n "ConditionsAndLookupTables" (dict "Count" 2 "a_open" `<a href="https://www.microsoft.com/net" target="_blank" rel="noopener noreferrer">` "a_close" "</a>" ) | safeHTML }}
                             </p>
                         </div>
                     </div>
@@ -196,7 +196,7 @@
                         <div class="icon-text ultimate-flexibility">
                             <h3 class="pb-2"><a
                                     href="https://docs.mysurvey.solutions/headquarters/survey-solutions-api/"
-                                    target="_blank">{{ i18n "UltimateFlexibilityAndCustomization" }}</a></h3>
+                                    target="_blank" rel="noopener noreferrer">{{ i18n "UltimateFlexibilityAndCustomization" }}</a></h3>
                             <p>{{ i18n "AutomatedQualityControl" }}</p>
                         </div>
                     </div>
@@ -206,7 +206,7 @@
                         <div class="icon-text modes">
                             <h3 class="pb-2"><a
                                     href="https://docs.mysurvey.solutions/getting-started/computer-assisted-web-interviewing-cawi-/"
-                                    target="_blank">{{ i18n "CapiAndMixedModes" }}</a></h3>
+                                    target="_blank" rel="noopener noreferrer">{{ i18n "CapiAndMixedModes" }}</a></h3>
                             <p>{{ i18n "CollectInDifferentModes" }}</p>
                         </div>
                     </div>
@@ -214,7 +214,7 @@
                         <div class="icon-text gis">
                             <h3 class="pb-2"><a
                                     href="https://docs.mysurvey.solutions/questionnaire-designer/geography-question/"
-                                    target="_blank">{{ i18n "Gis" }}</a></h3>
+                                    target="_blank" rel="noopener noreferrer">{{ i18n "Gis" }}</a></h3>
                             <p>{{ i18n "GisFeaturs" }}</p>
                         </div>
                     </div>
@@ -238,7 +238,7 @@
                         <div class="col-md-6 order-2 order-md-1">
                             <div class="feature mx-auto">
                                 <h3 class="mb-4"><a class="scale-underline" href="https://designer.mysurvey.solutions/"
-                                        target="_blank">{{ i18n "QuestionnaireDesigner" }}</a></h3>
+                                        target="_blank" rel="noopener noreferrer">{{ i18n "QuestionnaireDesigner" }}</a></h3>
                                 <ul class="mb-0 pl-3">
                                     <li>{{ i18n "Designer_DevelopComplexQuestionnaires" }}</li>
                                     <li>{{ i18n "Designer_CollaborateWithColleagues" }}</li>
@@ -249,7 +249,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
-                            <a href="https://designer.mysurvey.solutions/" target="_blank"
+                            <a href="https://designer.mysurvey.solutions/" target="_blank" rel="noopener noreferrer"
                                 class="laptop-icon d-block"></a>
                         </div>
                     </div>
@@ -260,13 +260,13 @@
                 <div class="container">
                     <div class="row align-items-center demo-server">
                         <div class="col-md-6  mb-4 mb-md-0">
-                            <a href="{{ .Site.Params.demoArticleLink }}" target="_blank"
+                            <a href="{{ .Site.Params.demoArticleLink }}" target="_blank" rel="noopener noreferrer"
                                 class="laptop-icon d-block"></a>
                         </div>
                         <div class="col-md-6">
                             <div class="feature mx-auto">
                                 <h3 class="mb-4"><a class="scale-underline" href="{{ .Site.Params.demoArticleLink }}"
-                                        target="_blank">{{ i18n "PublicDemoServer" }}</a></h3>
+                                        target="_blank" rel="noopener noreferrer">{{ i18n "PublicDemoServer" }}</a></h3>
                                 <p>{{ i18n "HQ_TestDriveOnTheDemoDerver" }}</p>
                                 <ul class="mb-0">
                                     <li>{{ i18n "HQ_SurveyManagement" }}</li>
@@ -285,23 +285,23 @@
                         <div class="col-md-6 order-2 order-md-1">
                             <div class="feature mx-auto">
                                 <h3 class="mb-4"><a class="scale-underline" href="https://docs.mysurvey.solutions/"
-                                        target="_blank">Knowledge base</a></h3>
+                                        target="_blank" rel="noopener noreferrer">Knowledge base</a></h3>
                                 <p>{{ i18n "Support_LearnMoreAboutSurveySolutionsBy" }}</p>
                                 <ul class="pl-3">
-                                    <li>{{ i18n "WatchingInstructionalVideos" (dict "Count" 2 "a_open" `<a href="https://www.youtube.com/channel/UCzGrZ3FiEu5NbDJB2GKazOA" target="_blank" id="video-tutorials">` "a_close" "</a>") | safeHTML }}
+                                    <li>{{ i18n "WatchingInstructionalVideos" (dict "Count" 2 "a_open" `<a href="https://www.youtube.com/channel/UCzGrZ3FiEu5NbDJB2GKazOA" target="_blank" rel="noopener noreferrer" id="video-tutorials">` "a_close" "</a>") | safeHTML }}
                                     </li>
-                                    <li>{{ i18n "ReadingDocumentation" (dict "Count" 2 "a_open" `<a href="https://docs.mysurvey.solutions/" target="_blank">` "a_close" "</a>") | safeHTML }}
+                                    <li>{{ i18n "ReadingDocumentation" (dict "Count" 2 "a_open" `<a href="https://docs.mysurvey.solutions/" target="_blank" rel="noopener noreferrer">` "a_close" "</a>") | safeHTML }}
 
 
                                     </li>
-                                    <li>{{ i18n "BrowsingThroughForumAndReleaseNotes" (dict "Count" 2 "a_open" `<a href="https://forum.mysurvey.solutions/" target="_blank" id="user-forum">` "a_close" "</a>") | safeHTML }}
+                                    <li>{{ i18n "BrowsingThroughForumAndReleaseNotes" (dict "Count" 2 "a_open" `<a href="https://forum.mysurvey.solutions/" target="_blank" rel="noopener noreferrer" id="user-forum">` "a_close" "</a>") | safeHTML }}
                                     </li>
                                 </ul>
                                 <p>{{ i18n "Support_GuideSoftwareDevelopmentThroughFeedbackAndFeatureRequests" }}</p>
                             </div>
                         </div>
                         <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
-                            <a href="http://docs.mysurvey.solutions/" target="_blank"
+                            <a href="https://docs.mysurvey.solutions/" target="_blank" rel="noopener noreferrer"
                                 class="laptop-icon d-block"></a>
                         </div>
                     </div>
@@ -335,15 +335,15 @@
                                 <div class="mb-4 h3">{{ i18n "SetupYourOwnServer" }}</div>
                                 <ul class="mb-0 server-instructions">
                                     <li><a href="https://docs.mysurvey.solutions/headquarters/config/docker/"
-                                            target="_blank" class="text-decoration-none ">Deploy using docker</a></li>
+                                            target="_blank" rel="noopener noreferrer" class="text-decoration-none ">Deploy using docker</a></li>
                                     <li><a href="https://docs.mysurvey.solutions/headquarters/config/azure-setup/"
-                                            target="_blank" class="text-decoration-none">Setup in Microsoft Azure</a>
+                                            target="_blank" rel="noopener noreferrer" class="text-decoration-none">Setup in Microsoft Azure</a>
                                     </li>
                                     <li><a href="https://docs.mysurvey.solutions/headquarters/config/aws-setup/"
-                                            target="_blank" class="text-decoration-none">Setup in Amazon Web
+                                            target="_blank" rel="noopener noreferrer" class="text-decoration-none">Setup in Amazon Web
                                             Services</a></li>
                                     <li><a href="https://docs.mysurvey.solutions/headquarters/config/server-installation/"
-                                            target="_blank" class="text-decoration-none">Install on your Windows
+                                            target="_blank" rel="noopener noreferrer" class="text-decoration-none">Install on your Windows
                                             server</a></li>
                                 </ul>
                             </div>
@@ -358,10 +358,9 @@
                             <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0 download-section-link mx-auto">
                             <ul class="list-unstyled mb-1 server-instructions">
                                 <li><a id="release-notes" href="#"
-                                    target="_blank"
                                     class="text-decoration-none">{{ i18n "WhatIsNewInVersion" .Site.Params }}</a></li>
                                 <li><a href="https://docs.mysurvey.solutions/release-notes"
-                                        target="_blank"
+                                        target="_blank" rel="noopener noreferrer"
                                         class="text-decoration-none">{{ i18n "VersionHistory" }}</a></li>
                                </ul>
                             </div>
@@ -378,9 +377,9 @@
                     &copy; 2016&mdash;{{ now.Format "2006" }} {{ i18n "TheWorldBankGroup" }}<br>
                     {{ i18n "AllRightsReserved" }}<a href="https://www.worldbank.org/en/about/legal"
                         class="text-muted">{{ i18n "Legal" }}</a>
-                        <br /><a class="text-primary" href="https://docs.mysurvey.solutions/about/" _target="blank"><b class="text-primary">About the team</b></a>
-                        <a class="text-primary" href="http://www.capterra.com/p/153927/Survey-Solutions/"
-                                target="_blank">{{ i18n "Testimonials" }}</a>
+                        <br /><a class="text-primary" href="https://docs.mysurvey.solutions/about/" target="_blank" rel="noopener noreferrer"><b class="text-primary">About the team</b></a>
+                        <a class="text-primary" href="https://www.capterra.com/p/153927/Survey-Solutions/"
+                                target="_blank" rel="noopener noreferrer">{{ i18n "Testimonials" }}</a>
                 </div>
             </div>
         </div>
