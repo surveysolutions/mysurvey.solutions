@@ -11,13 +11,21 @@
             if (qs.state) {
                 var state = window.atob(qs.state).split(';');
 
-                var redirectUrl = decodeURIComponent(state[0]);
-                var processingUrl = decodeURIComponent(state[1]);
+                if (state.length < 3 || !state[0] || !state[1]) return;
+
+                var redirectUrl;
+                var processingUrl;
+                try {
+                    redirectUrl = decodeURIComponent(state[0]);
+                    processingUrl = decodeURIComponent(state[1]);
+                } catch (e) {
+                    return;
+                }
                 var dataExportState = state[2];
 
                 var isSameOrigin = function(url) {
                     try {
-                        var parsed = new URL(url, window.location.origin);
+                        var parsed = new URL(url, window.location.href);
                         return parsed.origin === window.location.origin;
                     } catch (e) {
                         return false;
