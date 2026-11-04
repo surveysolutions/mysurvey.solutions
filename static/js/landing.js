@@ -114,56 +114,6 @@ $(document).ready(function () {
         }]
     });
 
-    $.getJSON('https://pds.mysurvey.solutions/api/report/mapBySurveys', function (data) {
-        // Instantiate the map
-        Highcharts.mapChart('map', {
-
-            chart: {
-                map: Highcharts.maps["custom/world-highres3"]
-            },
-
-            title: {
-                text: null
-            },
-            tooltip: {
-                 enabled: false
-            },
-           mapNavigation: {
-                enabled: false,
-                buttonOptions: {
-                    verticalAlign: 'bottom'
-                },
-                enableDoubleClickZoomTo: true,
-                enableMouseWheelZoom: false
-            },
-            legend: {
-                enabled: false
-            },
-            colorAxis: {
-                min: 1,
-                minColor: '#63c5df',
-                maxColor: '#1d3d8c'
-            },
-
-            series: [{
-                data: data.series,
-                joinBy: ['iso-a2', 'code2'],
-                name: 'Surveys in country',
-                states: {
-                    hover: {
-                        color: '#a4edba'
-                    }
-                }
-            }]
-        });
-    });
-
-    $.getJSON('https://pds.mysurvey.solutions/api/report/surveyStatistics', function (data) {
-        //$('#statistics-interviews')[0].textContent = data.interviewsCount;
-        //$('#statistics-surveys')[0].textContent = data.surveysCount;
-        //$('#statistics-countries')[0].textContent = data.countriesCount;
-        $('#map-countries')[0].textContent = data.countriesCount;
-    });
 });
 
 // Scrollspy with animated scroll
